@@ -60,5 +60,7 @@ After you run  bash run_vslam_kitti.sh or bash run_vslam_euroc.sh , it will save
   catkin build display_map --no-deps
   ./display_map map_dir
   ```
-
+<p align='center'>
+    <img src="imgs/map.png" alt="drawing" width="600"/>  
+</p>
     
