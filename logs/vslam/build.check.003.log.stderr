@@ -1,0 +1,13 @@
+[31m[1mCMake Error[0m at /home/mataiyuan/ASD-SLAM/src/vslam/CMakeLists.txt:30 (message):
+  message called with incorrect number of arguments
+
+
+[33m[1mCMake Warning[0m at /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:166 (message):
+  catkin_package() DEPENDS on 'Torch' but neither 'Torch_INCLUDE_DIRS' nor
+  'Torch_LIBRARIES' is defined.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:40 (catkin_package)
+
+
+make: *** [cmake_check_build_system] Error 1

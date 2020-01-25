@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target eigen_catkin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/eigen_catkin.dir/src/dependency_tracker.cc.o[0m
+[100%] [32m[1mLinking CXX shared library /home/mataiyuan/ASD-SLAM/devel/.private/eigen_catkin/lib/libeigen_catkin.so[0m
+[100%] Built target eigen_catkin

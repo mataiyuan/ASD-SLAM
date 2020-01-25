@@ -1,0 +1,7 @@
+[36m--[0m No build type specified; defaulting to CMAKE_BUILD_TYPE=Release.
+OpenCL disabled, not looking for it
+ANN not found, disabling it in benchmarks
+FLANN found, enabling it in benchmarks
+Python version from interpreter is 2.7.12
+Python libs and executable found, looking for numpy and boost::python
+Boost_PYTHON3_FOUNDfound:}}

@@ -1,0 +1,5 @@
+Symlinking /home/mataiyuan/ASD-SLAM/devel/share/eigen_catkin/cmake/eigen-extras.cmake
+Symlinking /home/mataiyuan/ASD-SLAM/devel/share/eigen_catkin/cmake/eigen_catkinConfig.cmake
+Symlinking /home/mataiyuan/ASD-SLAM/devel/share/eigen_catkin/cmake/eigen_catkinConfig-version.cmake
+Symlinking /home/mataiyuan/ASD-SLAM/devel/lib/libeigen_catkin.so
+Symlinking /home/mataiyuan/ASD-SLAM/devel/lib/pkgconfig/eigen_catkin.pc

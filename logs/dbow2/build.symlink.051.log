@@ -1,0 +1,4 @@
+Symlinking /home/mataiyuan/ASD-SLAM/devel/share/dbow2/cmake/dbow2Config-version.cmake
+Symlinking /home/mataiyuan/ASD-SLAM/devel/share/dbow2/cmake/dbow2Config.cmake
+Symlinking /home/mataiyuan/ASD-SLAM/devel/lib/libdbow2.so
+Symlinking /home/mataiyuan/ASD-SLAM/devel/lib/pkgconfig/dbow2.pc

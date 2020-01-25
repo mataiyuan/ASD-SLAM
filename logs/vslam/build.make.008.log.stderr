@@ -1,0 +1,626 @@
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/StorageImpl.h:6:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Storage.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/TensorBody.h:9[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Tensor.h:11[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Context.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/ATen.h:5[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBmatcher.h:29[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBmatcher.cc:21[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/intrusive_ptr.h:108:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kother[m[K’ [-Wunused-parameter]
+   intrusive_ptr_target(intrusive_ptr_target&& other) noexcept : intrusive_ptr_target() {}
+[01;32m[K                                               ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/intrusive_ptr.h:109:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kother[m[K’ [-Wunused-parameter]
+   intrusive_ptr_target& operator=(intrusive_ptr_target&& other) noexcept { return *this; }
+[01;32m[K                                                          ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/intrusive_ptr.h:110:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kother[m[K’ [-Wunused-parameter]
+   intrusive_ptr_target(const intrusive_ptr_target& other) noexcept : intrusive_ptr_target() {}
+[01;32m[K                                                    ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/intrusive_ptr.h:111:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kother[m[K’ [-Wunused-parameter]
+   intrusive_ptr_target& operator=(const intrusive_ptr_target& other) noexcept { return *this; }
+[01;32m[K                                                               ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Logging.h:28:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/TensorImpl.h:17[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/TensorBody.h:11[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Tensor.h:11[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Context.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/ATen.h:5[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBmatcher.h:29[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBmatcher.cc:21[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/logging_is_not_google_glog.h:59:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [-Wunused-parameter]
+   void operator&(const std::ostream& s) {}
+[01;32m[K                                      ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/function_schema.h:3:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/dispatch/DispatchTable.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/dispatch/OperatorEntry.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/dispatch/Dispatcher.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/TensorMethods.h:11[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Tensor.h:12[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Context.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/ATen.h:5[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBmatcher.h:29[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBmatcher.cc:21[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/jit_type.h:161:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcontained_types[m[K’ [-Wunused-parameter]
+       std::vector<TypePtr> contained_types) const {
+[01;32m[K                            ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/jit_type.h:388:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kautograd_zero[m[K’ [-Wunused-parameter]
+       c10::optional<bool> autograd_zero=c10::nullopt) {
+[01;32m[K                                              ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/dispatch/OperatorEntry.h:3:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/dispatch/Dispatcher.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/TensorMethods.h:11[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Tensor.h:12[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Context.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/ATen.h:5[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBmatcher.h:29[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBmatcher.cc:21[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/dispatch/DispatchTable.h:58:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koperator_name[m[K’ [-Wunused-parameter]
+   void removeIfExists(TensorTypeId key, const std::string& operator_name) {
+[01;32m[K                                                            ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Context.h:10:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/ATen.h:5[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBmatcher.h:29[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBmatcher.cc:21[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/detail/CUDAHooksInterface.h:66:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice_index[m[K’ [-Wunused-parameter]
+   virtual Generator* getDefaultCUDAGenerator(DeviceIndex device_index = -1) const {
+[01;32m[K                                                                          ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/detail/CUDAHooksInterface.h:70:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [-Wunused-parameter]
+   virtual Device getDeviceFromPtr(void* data) const {
+[01;32m[K                                         ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/detail/CUDAHooksInterface.h:74:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [-Wunused-parameter]
+   virtual bool isPinnedPtr(void* data) const {
+[01;32m[K                                  ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/detail/CUDAHooksInterface.h:139:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice_index[m[K’ [-Wunused-parameter]
+   virtual int64_t cuFFTGetPlanCacheMaxSize(int64_t device_index) const {
+[01;32m[K                                                    ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/detail/CUDAHooksInterface.h:143:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice_index[m[K’ [-Wunused-parameter]
+   virtual void cuFFTSetPlanCacheMaxSize(int64_t device_index, int64_t max_size) const {
+[01;32m[K                                                 ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/detail/CUDAHooksInterface.h:143:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmax_size[m[K’ [-Wunused-parameter]
+   virtual void cuFFTSetPlanCacheMaxSize(int64_t device_index, int64_t max_size) const {
+[01;32m[K                                                                       ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/detail/CUDAHooksInterface.h:147:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice_index[m[K’ [-Wunused-parameter]
+   virtual int64_t cuFFTGetPlanCacheSize(int64_t device_index) const {
+[01;32m[K                                                 ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/detail/CUDAHooksInterface.h:151:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice_index[m[K’ [-Wunused-parameter]
+   virtual void cuFFTClearPlanCache(int64_t device_index) const {
+[01;32m[K                                            ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Context.h:13:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/ATen.h:5[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBmatcher.h:29[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBmatcher.cc:21[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/impl/DeviceGuardImplInterface.h:123:11:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [-Wunused-parameter]
+     void* event,
+[01;32m[K           ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/impl/DeviceGuardImplInterface.h:124:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice_index[m[K’ [-Wunused-parameter]
+     const DeviceIndex device_index) const noexcept { }
+[01;32m[K                       ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/impl/DeviceGuardImplInterface.h:133:12:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [-Wunused-parameter]
+     void** event,
+[01;32m[K            ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/impl/DeviceGuardImplInterface.h:134:19:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [-Wunused-parameter]
+     const Stream& stream,
+[01;32m[K                   ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/impl/DeviceGuardImplInterface.h:135:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice_index[m[K’ [-Wunused-parameter]
+     const DeviceIndex device_index,
+[01;32m[K                       ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/impl/DeviceGuardImplInterface.h:136:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [-Wunused-parameter]
+     const c10::EventFlag flag) const {
+[01;32m[K                          ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/impl/DeviceGuardImplInterface.h:149:11:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [-Wunused-parameter]
+     void* event,
+[01;32m[K           ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/impl/DeviceGuardImplInterface.h:150:19:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [-Wunused-parameter]
+     const Stream& stream) const {
+[01;32m[K                   ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/impl/DeviceGuardImplInterface.h:160:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [-Wunused-parameter]
+   virtual bool queryEvent(void* event) const {
+[01;32m[K                                 ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/StorageImpl.h:6:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Storage.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/TensorBody.h:9[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Tensor.h:11[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Context.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/ATen.h:5[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:63[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/intrusive_ptr.h:108:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kother[m[K’ [-Wunused-parameter]
+   intrusive_ptr_target(intrusive_ptr_target&& other) noexcept : intrusive_ptr_target() {}
+[01;32m[K                                               ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/intrusive_ptr.h:109:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kother[m[K’ [-Wunused-parameter]
+   intrusive_ptr_target& operator=(intrusive_ptr_target&& other) noexcept { return *this; }
+[01;32m[K                                                          ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/intrusive_ptr.h:110:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kother[m[K’ [-Wunused-parameter]
+   intrusive_ptr_target(const intrusive_ptr_target& other) noexcept : intrusive_ptr_target() {}
+[01;32m[K                                                    ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/intrusive_ptr.h:111:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kother[m[K’ [-Wunused-parameter]
+   intrusive_ptr_target& operator=(const intrusive_ptr_target& other) noexcept { return *this; }
+[01;32m[K                                                               ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Logging.h:28:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/TensorImpl.h:17[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/TensorBody.h:11[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Tensor.h:11[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Context.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/ATen.h:5[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:63[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/logging_is_not_google_glog.h:59:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [-Wunused-parameter]
+   void operator&(const std::ostream& s) {}
+[01;32m[K                                      ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/function_schema.h:3:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/dispatch/DispatchTable.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/dispatch/OperatorEntry.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/dispatch/Dispatcher.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/TensorMethods.h:11[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Tensor.h:12[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Context.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/ATen.h:5[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:63[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/jit_type.h:161:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcontained_types[m[K’ [-Wunused-parameter]
+       std::vector<TypePtr> contained_types) const {
+[01;32m[K                            ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/jit_type.h:388:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kautograd_zero[m[K’ [-Wunused-parameter]
+       c10::optional<bool> autograd_zero=c10::nullopt) {
+[01;32m[K                                              ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/jit/tracer.h:10:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/generated/variable_factories.h:10[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/types.h:7[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/dataloader_options.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/dataloader/base.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/dataloader/stateful.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/dataloader.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/all.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/torch.h:3[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:27[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBmatcher.h:29[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBmatcher.cc:21[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/utils/variadic.h:77:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [-Wunused-parameter]
+   void operator()(const at::Tensor& x) {
+[01;32m[K                                     ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/utils/variadic.h:92:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [-Wunused-parameter]
+   void operator()(const autograd::Variable& x) {
+[01;32m[K                                             ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/generated/variable_factories.h:10:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/types.h:7[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/dataloader_options.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/dataloader/base.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/dataloader/stateful.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/dataloader.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/all.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/torch.h:3[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:27[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBmatcher.h:29[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBmatcher.cc:21[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/jit/tracer.h:53:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvar[m[K’ [-Wunused-parameter]
+       [](const Variable& var) { return ""; };
+[01;32m[K                          ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/dispatch/OperatorEntry.h:3:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/dispatch/Dispatcher.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/TensorMethods.h:11[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Tensor.h:12[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Context.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/ATen.h:5[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:63[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/dispatch/DispatchTable.h:58:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koperator_name[m[K’ [-Wunused-parameter]
+   void removeIfExists(TensorTypeId key, const std::string& operator_name) {
+[01;32m[K                                                            ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Context.h:10:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/ATen.h:5[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:63[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/detail/CUDAHooksInterface.h:66:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice_index[m[K’ [-Wunused-parameter]
+   virtual Generator* getDefaultCUDAGenerator(DeviceIndex device_index = -1) const {
+[01;32m[K                                                                          ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/detail/CUDAHooksInterface.h:70:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [-Wunused-parameter]
+   virtual Device getDeviceFromPtr(void* data) const {
+[01;32m[K                                         ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/detail/CUDAHooksInterface.h:74:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [-Wunused-parameter]
+   virtual bool isPinnedPtr(void* data) const {
+[01;32m[K                                  ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/detail/CUDAHooksInterface.h:139:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice_index[m[K’ [-Wunused-parameter]
+   virtual int64_t cuFFTGetPlanCacheMaxSize(int64_t device_index) const {
+[01;32m[K                                                    ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/detail/CUDAHooksInterface.h:143:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice_index[m[K’ [-Wunused-parameter]
+   virtual void cuFFTSetPlanCacheMaxSize(int64_t device_index, int64_t max_size) const {
+[01;32m[K                                                 ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/detail/CUDAHooksInterface.h:143:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmax_size[m[K’ [-Wunused-parameter]
+   virtual void cuFFTSetPlanCacheMaxSize(int64_t device_index, int64_t max_size) const {
+[01;32m[K                                                                       ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/detail/CUDAHooksInterface.h:147:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice_index[m[K’ [-Wunused-parameter]
+   virtual int64_t cuFFTGetPlanCacheSize(int64_t device_index) const {
+[01;32m[K                                                 ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/detail/CUDAHooksInterface.h:151:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice_index[m[K’ [-Wunused-parameter]
+   virtual void cuFFTClearPlanCache(int64_t device_index) const {
+[01;32m[K                                            ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Context.h:13:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/ATen.h:5[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:63[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/impl/DeviceGuardImplInterface.h:123:11:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [-Wunused-parameter]
+     void* event,
+[01;32m[K           ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/impl/DeviceGuardImplInterface.h:124:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice_index[m[K’ [-Wunused-parameter]
+     const DeviceIndex device_index) const noexcept { }
+[01;32m[K                       ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/impl/DeviceGuardImplInterface.h:133:12:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [-Wunused-parameter]
+     void** event,
+[01;32m[K            ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/impl/DeviceGuardImplInterface.h:134:19:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [-Wunused-parameter]
+     const Stream& stream,
+[01;32m[K                   ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/impl/DeviceGuardImplInterface.h:135:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice_index[m[K’ [-Wunused-parameter]
+     const DeviceIndex device_index,
+[01;32m[K                       ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/impl/DeviceGuardImplInterface.h:136:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [-Wunused-parameter]
+     const c10::EventFlag flag) const {
+[01;32m[K                          ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/impl/DeviceGuardImplInterface.h:149:11:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [-Wunused-parameter]
+     void* event,
+[01;32m[K           ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/impl/DeviceGuardImplInterface.h:150:19:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [-Wunused-parameter]
+     const Stream& stream) const {
+[01;32m[K                   ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/impl/DeviceGuardImplInterface.h:160:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [-Wunused-parameter]
+   virtual bool queryEvent(void* event) const {
+[01;32m[K                                 ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/jit/script/module.h:14:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/serialize/input-archive.h:7[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/serialize/archive.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/samplers/serialize.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/samplers.h:8[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/datasets/chunk.h:6[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/datasets.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/all.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/torch.h:3[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:27[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBmatcher.h:29[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBmatcher.cc:21[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/jit/script/compilation_unit.h:72:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ko[m[K’ [-Wunused-parameter]
+   void set_optimized(bool o) {
+[01;32m[K                           ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/serialize/input-archive.h:7:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/serialize/archive.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/samplers/serialize.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/samplers.h:8[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/datasets/chunk.h:6[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/datasets.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/all.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/torch.h:3[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:27[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBmatcher.h:29[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBmatcher.cc:21[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/jit/script/module.h:125:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ko[m[K’ [-Wunused-parameter]
+   void set_optimized(bool o) {
+[01;32m[K                           ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/function.h:6:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/custom_function.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/autograd.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/all.h:11[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/torch.h:3[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:27[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBmatcher.h:29[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBmatcher.cc:21[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/profiler.h:29:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice[m[K’ [-Wunused-parameter]
+   virtual void record(int* device, CUDAEventStub* event, int64_t* cpu_ns) {
+[01;32m[K                            ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/profiler.h:29:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [-Wunused-parameter]
+   virtual void record(int* device, CUDAEventStub* event, int64_t* cpu_ns) {
+[01;32m[K                                                   ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/profiler.h:29:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcpu_ns[m[K’ [-Wunused-parameter]
+   virtual void record(int* device, CUDAEventStub* event, int64_t* cpu_ns) {
+[01;32m[K                                                                   ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/profiler.h:32:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [-Wunused-parameter]
+   virtual float elapsed(CUDAEventStub event, CUDAEventStub event2) {
+[01;32m[K                                       ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/profiler.h:32:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent2[m[K’ [-Wunused-parameter]
+   virtual float elapsed(CUDAEventStub event, CUDAEventStub event2) {
+[01;32m[K                                                            ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/profiler.h:36:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [-Wunused-parameter]
+   virtual void nvtxMarkA(const char* name) {
+[01;32m[K                                      ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/profiler.h:39:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [-Wunused-parameter]
+   virtual void nvtxRangePushA(const char* name) {
+[01;32m[K                                           ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/profiler.h:48:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kop[m[K’ [-Wunused-parameter]
+   virtual void onEachDevice(std::function<void(int)> op) {
+[01;32m[K                                                      ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/custom_function.h:3:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/autograd.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/all.h:11[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/torch.h:3[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:27[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBmatcher.h:29[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBmatcher.cc:21[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/function.h:155:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [-Wunused-parameter]
+   uint32_t add_input_metadata(undefined_input u) noexcept {
+[01;32m[K                                               ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/jit/tracer.h:10:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/generated/variable_factories.h:10[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/types.h:7[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/dataloader_options.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/dataloader/base.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/dataloader/stateful.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/dataloader.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/all.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/torch.h:3[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:27[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:63[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/utils/variadic.h:77:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [-Wunused-parameter]
+   void operator()(const at::Tensor& x) {
+[01;32m[K                                     ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/utils/variadic.h:92:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [-Wunused-parameter]
+   void operator()(const autograd::Variable& x) {
+[01;32m[K                                             ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/generated/variable_factories.h:10:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/types.h:7[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/dataloader_options.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/dataloader/base.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/dataloader/stateful.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/dataloader.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/all.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/torch.h:3[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:27[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:63[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/jit/tracer.h:53:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvar[m[K’ [-Wunused-parameter]
+       [](const Variable& var) { return ""; };
+[01;32m[K                          ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBmatcher.cc:670:97:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KbOnlyStereo[m[K’ [-Wunused-parameter]
+                                        vector<pair<size_t, size_t> > &vMatchedPairs, const bool bOnlyStereo)
+[01;32m[K                                                                                                 ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBmatcher.cc:[m[K In member function ‘[01m[Kint ORB_SLAM2::ORBmatcher::Fuse(ORB_SLAM2::KeyFrame*, const std::vector<ORB_SLAM2::MapPoint*>&, float)[m[K’:
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBmatcher.cc:870:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kur[m[K’ [-Wunused-variable]
+         const float ur = u-bf*invz;//公式z=fb/d，d=ul-ur，这里ul即u
+[01;32m[K                     ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/jit/script/module.h:14:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/serialize/input-archive.h:7[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/serialize/archive.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/samplers/serialize.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/samplers.h:8[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/datasets/chunk.h:6[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/datasets.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/all.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/torch.h:3[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:27[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:63[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/jit/script/compilation_unit.h:72:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ko[m[K’ [-Wunused-parameter]
+   void set_optimized(bool o) {
+[01;32m[K                           ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/serialize/input-archive.h:7:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/serialize/archive.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/samplers/serialize.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/samplers.h:8[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/datasets/chunk.h:6[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data/datasets.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/data.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/all.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/torch.h:3[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:27[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:63[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/jit/script/module.h:125:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ko[m[K’ [-Wunused-parameter]
+   void set_optimized(bool o) {
+[01;32m[K                           ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/ScalarType.h:4:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:9[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/TensorBody.h:7[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Tensor.h:11[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Context.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/ATen.h:5[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBmatcher.h:29[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBmatcher.cc:21[m[K:
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = unsigned char; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = unsigned char; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+     From f) {
+[01;32m[K          ^[m[K
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = signed char; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = signed char; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = short int; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = short int; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = int; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = int; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = long int; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = long int; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = c10::Half; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = c10::Half; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = float; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = float; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = double; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = double; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = std::complex<float>; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = std::complex<float>; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = std::complex<double>; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = std::complex<double>; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = bool; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = bool; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = c10::BFloat16; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = c10::BFloat16; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/function.h:6:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/custom_function.h:3[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/autograd.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/all.h:11[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/torch.h:3[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:27[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:63[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/profiler.h:29:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice[m[K’ [-Wunused-parameter]
+   virtual void record(int* device, CUDAEventStub* event, int64_t* cpu_ns) {
+[01;32m[K                            ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/profiler.h:29:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [-Wunused-parameter]
+   virtual void record(int* device, CUDAEventStub* event, int64_t* cpu_ns) {
+[01;32m[K                                                   ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/profiler.h:29:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcpu_ns[m[K’ [-Wunused-parameter]
+   virtual void record(int* device, CUDAEventStub* event, int64_t* cpu_ns) {
+[01;32m[K                                                                   ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/profiler.h:32:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [-Wunused-parameter]
+   virtual float elapsed(CUDAEventStub event, CUDAEventStub event2) {
+[01;32m[K                                       ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/profiler.h:32:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent2[m[K’ [-Wunused-parameter]
+   virtual float elapsed(CUDAEventStub event, CUDAEventStub event2) {
+[01;32m[K                                                            ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/profiler.h:36:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [-Wunused-parameter]
+   virtual void nvtxMarkA(const char* name) {
+[01;32m[K                                      ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/profiler.h:39:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [-Wunused-parameter]
+   virtual void nvtxRangePushA(const char* name) {
+[01;32m[K                                           ^[m[K
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/profiler.h:48:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kop[m[K’ [-Wunused-parameter]
+   virtual void onEachDevice(std::function<void(int)> op) {
+[01;32m[K                                                      ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/custom_function.h:3:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/autograd.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/all.h:11[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/api/include/torch/torch.h:3[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:27[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:63[m[K:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/torch/csrc/autograd/function.h:155:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [-Wunused-parameter]
+   uint32_t add_input_metadata(undefined_input u) noexcept {
+[01;32m[K                                               ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:[m[K In function ‘[01m[Kvoid ORB_SLAM2::computesiftDescriptor(const cv::KeyPoint&, const cv::Mat&, const Point*, float*, torch::jit::script::Module*)[m[K’:
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:174:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kbegin[m[K’ set but not used [-Wunused-but-set-variable]
+   ros::Time begin = ros::Time::now();
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:178:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kend1[m[K’ set but not used [-Wunused-but-set-variable]
+   ros::Time end1 = ros::Time::now();
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:[m[K At global scope:
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:158:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpattern[m[K’ [-Wunused-parameter]
+                                  const Mat& img, const Point* pattern,
+[01;32m[K                                                               ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:590:116:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klevel[m[K’ [-Wunused-parameter]
+                                        const int &maxX, const int &minY, const int &maxY, const int &N, const int &level)
+[01;32m[K                                                                                                                    ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:[m[K In function ‘[01m[Kvoid ORB_SLAM2::computeSIFTDescriptors(const cv::Mat&, std::vector<cv::KeyPoint>&, cv::Mat&, const std::vector<cv::Point_<int> >&, torch::jit::script::Module*)[m[K’:
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:1105:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kbegin[m[K’ set but not used [-Wunused-but-set-variable]
+  ros::Time begin = ros::Time::now();
+[01;32m[K            ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:[m[K At global scope:
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:1102:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpattern[m[K’ [-Wunused-parameter]
+                                const vector<Point>& pattern , torch::jit::script::Module *module)
+[01;32m[K                                                     ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:1139:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_mask[m[K’ [-Wunused-parameter]
+ void ORBextractor::ExtractDesc( InputArray _image, InputArray _mask, vector<KeyPoint>& _keypoints,
+[01;32m[K                                                               ^[m[K
+In file included from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/ScalarType.h:4:0[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:9[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/core/TensorBody.h:7[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Tensor.h:11[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/Context.h:4[m[K,
+                 from [01m[K/home/mataiyuan/Ku/pytorch/torch/include/ATen/ATen.h:5[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:63[m[K:
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = unsigned char; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = unsigned char; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+     From f) {
+[01;32m[K          ^[m[K
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = signed char; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = signed char; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = short int; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = short int; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = int; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = int; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = long int; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = long int; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = c10::Half; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = c10::Half; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = float; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = float; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = double; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = double; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = std::complex<float>; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = std::complex<float>; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = std::complex<double>; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = std::complex<double>; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = bool; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = bool; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h: In instantiation of ‘[01m[Ktypename std::enable_if<std::is_same<From, bool>::value, bool>::type c10::overflows(From) [with To = c10::BFloat16; From = bool; typename std::enable_if<std::is_same<From, bool>::value, bool>::type = bool][m[K’:
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:497:60:[m[K   required from ‘[01m[KTo c10::checked_convert(From, const char*) [with To = c10::BFloat16; From = bool][m[K’
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/core/Scalar.h:72:3:[m[K   required from here
+[01m[K/home/mataiyuan/Ku/pytorch/torch/include/c10/util/Half.h:437:10:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kf[m[K’ [-Wunused-parameter]
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:157:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid ORB_SLAM2::computesiftDescriptor(const cv::KeyPoint&, const cv::Mat&, const Point*, float*, torch::jit::script::Module*)[m[K’ defined but not used [-Wunused-function]
+ static void computesiftDescriptor(const KeyPoint& kpt,
+[01;32m[K             ^[m[K

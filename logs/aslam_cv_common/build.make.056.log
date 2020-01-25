@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target aslam_cv_common[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/aslam_cv_common.dir/src/channel.cc.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/aslam_cv_common.dir/src/channel-serialization.cc.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/aslam_cv_common.dir/src/reader-first-reader-writer-lock.cc.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/aslam_cv_common.dir/src/hash-id.cc.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/aslam_cv_common.dir/src/reader-writer-lock.cc.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/aslam_cv_common.dir/src/statistics.cc.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/aslam_cv_common.dir/src/thread-pool.cc.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/aslam_cv_common.dir/src/timer.cc.o[0m
+[100%] [32m[1mLinking CXX shared library /home/mataiyuan/ASD-SLAM/devel/.private/aslam_cv_common/lib/libaslam_cv_common.so[0m
+[100%] Built target aslam_cv_common

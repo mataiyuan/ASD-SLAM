@@ -1,0 +1,5 @@
+Symlinking /home/mataiyuan/ASD-SLAM/devel/share/read_write_data_lib/cmake/read_write_data_libConfig.cmake
+Symlinking /home/mataiyuan/ASD-SLAM/devel/share/read_write_data_lib/cmake/read_write_data_libConfig-version.cmake
+Symlinking /home/mataiyuan/ASD-SLAM/devel/include/read_write_data_lib/read_write.h
+Symlinking /home/mataiyuan/ASD-SLAM/devel/lib/libread_write_data_lib.so
+Symlinking /home/mataiyuan/ASD-SLAM/devel/lib/pkgconfig/read_write_data_lib.pc

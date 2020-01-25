@@ -1,0 +1,103 @@
+[35m[1mScanning dependencies of target gflags_src[0m
+[ 10%] [34m[1mCreating directories for 'gflags_src'[0m
+[ 20%] [34m[1mPerforming download step (verify and extract) for 'gflags_src'[0m
+-- verifying file...
+     file='/home/mataiyuan/ASD-SLAM/src/3rd_party/gflags_catkin/v2.1.2.zip'
+-- verifying file... done
+-- extracting...
+     src='/home/mataiyuan/ASD-SLAM/src/3rd_party/gflags_catkin/v2.1.2.zip'
+     dst='/home/mataiyuan/ASD-SLAM/build/gflags_catkin/gflags_src-prefix/src/gflags_src'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 30%] [34m[1mNo patch step for 'gflags_src'[0m
+[ 40%] [34m[1mNo update step for 'gflags_src'[0m
+[ 50%] [34m[1mPerforming configure step for 'gflags_src'[0m
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The C compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Looking for C++ include unistd.h
+-- Looking for C++ include unistd.h - found
+-- Looking for C++ include stdint.h
+-- Looking for C++ include stdint.h - found
+-- Looking for C++ include inttypes.h
+-- Looking for C++ include inttypes.h - found
+-- Looking for C++ include sys/types.h
+-- Looking for C++ include sys/types.h - found
+-- Looking for C++ include sys/stat.h
+-- Looking for C++ include sys/stat.h - found
+-- Looking for C++ include fnmatch.h
+-- Looking for C++ include fnmatch.h - found
+-- Looking for C++ include stddef.h
+-- Looking for C++ include stddef.h - found
+-- Check size of uint32_t
+-- Check size of uint32_t - done
+-- Looking for strtoll
+-- Looking for strtoll - found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Check size of pthread_rwlock_t
+-- Check size of pthread_rwlock_t - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mataiyuan/ASD-SLAM/build/gflags_catkin/gflags_src-prefix/src/gflags_src
+[ 60%] [34m[1mPerforming build step for 'gflags_src'[0m
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+[35m[1mScanning dependencies of target gflags-shared[0m
+[35m[1mScanning dependencies of target gflags_nothreads-shared[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/gflags-shared.dir/src/gflags_completions.cc.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/gflags-shared.dir/src/gflags_reporting.cc.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/gflags_nothreads-shared.dir/src/gflags_reporting.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gflags_nothreads-shared.dir/src/gflags.cc.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/gflags-shared.dir/src/gflags.cc.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/gflags_nothreads-shared.dir/src/gflags_completions.cc.o[0m
+[ 87%] [32m[1mLinking CXX shared library lib/libgflags_nothreads.so[0m
+[100%] [32m[1mLinking CXX shared library lib/libgflags.so[0m
+[100%] Built target gflags_nothreads-shared
+[100%] Built target gflags-shared
+[ 70%] [34m[1mPerforming install step for 'gflags_src'[0m
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+[ 50%] Built target gflags-shared
+[100%] Built target gflags_nothreads-shared
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/lib/libgflags.so.2.1.2
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/lib/libgflags.so.2
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/lib/libgflags.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/lib/libgflags_nothreads.so.2.1.2
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/lib/libgflags_nothreads.so.2
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/lib/libgflags_nothreads.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include/gflags/gflags.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include/gflags/gflags_declare.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include/gflags/gflags_completions.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/lib/cmake/gflags/gflags-config.cmake
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/lib/cmake/gflags/gflags-config-version.cmake
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/lib/cmake/gflags/gflags-export.cmake
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/lib/cmake/gflags/gflags-export-release.cmake
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/bin/gflags_completions.sh
+[ 80%] [34m[1mCompleted 'gflags_src'[0m
+[ 80%] Built target gflags_src
+[35m[1mScanning dependencies of target gflags_catkin[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/gflags_catkin.dir/src/dependency_tracker.cc.o[0m
+[100%] [32m[1mLinking CXX shared library /home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/lib/libgflags_catkin.so[0m
+[100%] Built target gflags_catkin

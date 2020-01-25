@@ -1,0 +1,8 @@
+Symlinking /home/mataiyuan/ASD-SLAM/devel/./setup.zsh
+Symlinking /home/mataiyuan/ASD-SLAM/devel/./setup.sh
+Symlinking /home/mataiyuan/ASD-SLAM/devel/./_setup_util.py
+Symlinking /home/mataiyuan/ASD-SLAM/devel/./env.sh
+Symlinking /home/mataiyuan/ASD-SLAM/devel/./setup.bash
+Symlinking /home/mataiyuan/ASD-SLAM/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/mataiyuan/ASD-SLAM/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/mataiyuan/ASD-SLAM/devel/lib/pkgconfig/catkin_tools_prebuild.pc

@@ -1,0 +1,335 @@
+In file included from [01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/integration/handler_test.cpp:2:0[m[K:
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:2:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_1[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_1 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:7:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_2[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_2 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:12:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_3[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_3 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:22:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_4[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_4 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:32:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_5[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_5 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:37:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_6[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_6 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:44:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_7[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_7 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:56:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_8[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_8 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:68:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_9[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_9 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:78:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_10[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_10 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:88:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_11[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_11 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:99:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_12[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_12 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:109:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_13[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_13 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:115:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_14[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_14 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:121:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_15[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_15 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:131:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_16[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_16 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:140:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_17[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_17 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:149:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_18[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_18 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:159:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_23[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_23 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:174:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_24[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_24 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:190:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_25[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_25 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:199:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_26[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_26 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:208:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_27[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_27 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:239:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_28[m[K’ defined but not used [-Wunused-variable]
+ const char *ex2_28 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:269:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex5_3[m[K’ defined but not used [-Wunused-variable]
+ const char *ex5_3 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:278:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex5_4[m[K’ defined but not used [-Wunused-variable]
+ const char *ex5_4 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:282:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex5_5[m[K’ defined but not used [-Wunused-variable]
+ const char *ex5_5 = "# Comment only.";
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:284:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex5_6[m[K’ defined but not used [-Wunused-variable]
+ const char *ex5_6 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:288:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex5_7[m[K’ defined but not used [-Wunused-variable]
+ const char *ex5_7 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:296:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex5_8[m[K’ defined but not used [-Wunused-variable]
+ const char *ex5_8 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:303:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex5_11[m[K’ defined but not used [-Wunused-variable]
+ const char *ex5_11 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:308:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex5_12[m[K’ defined but not used [-Wunused-variable]
+ const char *ex5_12 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:316:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex5_13[m[K’ defined but not used [-Wunused-variable]
+ const char *ex5_13 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:323:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex5_14[m[K’ defined but not used [-Wunused-variable]
+ const char *ex5_14 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:328:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_1[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_1 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:342:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_2[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_2 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:348:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_3[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_3 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:353:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_4[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_4 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:362:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_5[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_5 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:371:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_6[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_6 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:380:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_7[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_7 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:388:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_8[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_8 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:397:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_9[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_9 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:401:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_10[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_10 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:406:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_11[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_11 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:412:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_12[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_12 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:420:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_13[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_13 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:425:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_14[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_14 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:431:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_15[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_15 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:436:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_16[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_16 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:441:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_17[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_17 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:446:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_18[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_18 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:455:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_19[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_19 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:460:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_20[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_20 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:465:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_21[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_21 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:474:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_22[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_22 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:479:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_23[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_23 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:484:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_24[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_24 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:488:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_25[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_25 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:492:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_26[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_26 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:499:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_27a[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_27a =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:504:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_27b[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_27b =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:509:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_28[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_28 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:515:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_29[m[K’ defined but not used [-Wunused-variable]
+ const char *ex6_29 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:519:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_1[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_1 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:525:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_2[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_2 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:531:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_3[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_3 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:537:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_4[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_4 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:542:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_5[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_5 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:549:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_6[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_6 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:555:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_7[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_7 = " 'here''s to \"quotes\"'";
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:557:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_8[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_8 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:562:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_9[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_9 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:568:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_10[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_10 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:582:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_11[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_11 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:587:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_12[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_12 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:593:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_13[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_13 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:597:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_14[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_14 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:607:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_15[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_15 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:611:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_16[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_16 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:618:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_17[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_17 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:626:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_18[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_18 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:633:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_19[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_19 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:638:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_20[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_20 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:644:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_21[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_21 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:649:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_22[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_22 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:654:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_23[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_23 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:661:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_24[m[K’ defined but not used [-Wunused-variable]
+ const char *ex7_24 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:668:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_1[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_1 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:679:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_2[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_2 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:692:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_3a[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_3a =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:697:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_3b[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_3b =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:702:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_3c[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_3c =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:706:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_4[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_4 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:714:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_5[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_5 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:735:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_6[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_6 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:743:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_7[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_7 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:749:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_8[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_8 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:760:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_9[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_9 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:784:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_11[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_11 = ex8_10;
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:785:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_12[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_12 = ex8_10;
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:786:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_13[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_13 = ex8_10;
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:788:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_14[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_14 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:793:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_15[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_15 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:801:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_16[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_16 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:805:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_17[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_17 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:812:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_18[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_18 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:818:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_19[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_19 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:823:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_20[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_20 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:831:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_21[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_21 =
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/build/yaml_cpp_catkin/yaml_cpp_src-prefix/src/yaml_cpp_src/test/specexamples.h:839:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_22[m[K’ defined but not used [-Wunused-variable]
+ const char *ex8_22 =
+[01;32m[K             ^[m[K
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-c99-extensions[m[K’

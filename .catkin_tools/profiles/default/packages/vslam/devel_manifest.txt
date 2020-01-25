@@ -1,0 +1,7 @@
+vslam
+/home/mataiyuan/ASD-SLAM/devel/.private/vslam/share/vslam/cmake/vslamConfig.cmake /home/mataiyuan/ASD-SLAM/devel/share/vslam/cmake/vslamConfig.cmake
+/home/mataiyuan/ASD-SLAM/devel/.private/vslam/share/vslam/cmake/vslamConfig-version.cmake /home/mataiyuan/ASD-SLAM/devel/share/vslam/cmake/vslamConfig-version.cmake
+/home/mataiyuan/ASD-SLAM/devel/.private/vslam/lib/libvslam.so /home/mataiyuan/ASD-SLAM/devel/lib/libvslam.so
+/home/mataiyuan/ASD-SLAM/devel/.private/vslam/lib/pkgconfig/vslam.pc /home/mataiyuan/ASD-SLAM/devel/lib/pkgconfig/vslam.pc
+/home/mataiyuan/ASD-SLAM/devel/.private/vslam/lib/vslam/kitti /home/mataiyuan/ASD-SLAM/devel/lib/vslam/kitti
+/home/mataiyuan/ASD-SLAM/devel/.private/vslam/lib/vslam/euroc /home/mataiyuan/ASD-SLAM/devel/lib/vslam/euroc

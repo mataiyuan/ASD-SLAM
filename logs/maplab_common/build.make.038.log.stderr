@@ -1,0 +1,118 @@
+In file included from [01m[K/home/mataiyuan/ASD-SLAM/src/maplab-common/include/maplab-common/id.pb.h:27:0[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/build/maplab_common/compiled_proto/maplab-common/id.pb.cc:4[m[K:
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:64:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+   void ClearToEmpty(const ::std::string* default_value, Arena* arena)
+[01;32m[K                                                                ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:71:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdefault_value[m[K’ [-Wunused-parameter]
+   void ClearToEmptyNoArena(const ::std::string* default_value)
+[01;32m[K                                                 ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:78:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+   void ClearToDefault(const ::std::string* default_value, Arena* arena)
+[01;32m[K                                                                  ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:85:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+   void Destroy(const ::std::string* default_value, Arena* arena)
+[01;32m[K                                                           ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:97:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+   ::std::string* Mutable(const ::std::string* default_value, Arena* arena)
+[01;32m[K                                                                     ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:104:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+   ::std::string* Release(const ::std::string* default_value, Arena* arena) {
+[01;32m[K                                                                     ^[m[K
+In file included from [01m[K/home/mataiyuan/ASD-SLAM/src/maplab-common/include/maplab-common/eigen.pb.h:27:0[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/build/maplab_common/compiled_proto/maplab-common/eigen.pb.cc:4[m[K:
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:64:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+   void ClearToEmpty(const ::std::string* default_value, Arena* arena)
+[01;32m[K                                                                ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:107:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+   ::std::string* ReleaseNonDefault(const ::std::string* default_value, Arena* arena) {
+[01;32m[K                                                                               ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:71:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdefault_value[m[K’ [-Wunused-parameter]
+   void ClearToEmptyNoArena(const ::std::string* default_value)
+[01;32m[K                                                 ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:78:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+   void ClearToDefault(const ::std::string* default_value, Arena* arena)
+[01;32m[K                                                                  ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:117:19:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+            Arena* arena) GOOGLE_PROTOBUF_ATTRIBUTE_ALWAYS_INLINE {
+[01;32m[K                   ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:85:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+   void Destroy(const ::std::string* default_value, Arena* arena)
+[01;32m[K                                                           ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:122:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+                Arena* arena) GOOGLE_PROTOBUF_ATTRIBUTE_ALWAYS_INLINE {
+[01;32m[K                       ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:97:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+   ::std::string* Mutable(const ::std::string* default_value, Arena* arena)
+[01;32m[K                                                                     ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:104:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+   ::std::string* Release(const ::std::string* default_value, Arena* arena) {
+[01;32m[K                                                                     ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:130:19:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+            Arena* arena) GOOGLE_PROTOBUF_ATTRIBUTE_ALWAYS_INLINE {
+[01;32m[K                   ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:107:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+   ::std::string* ReleaseNonDefault(const ::std::string* default_value, Arena* arena) {
+[01;32m[K                                                                               ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:135:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+                Arena* arena) GOOGLE_PROTOBUF_ATTRIBUTE_ALWAYS_INLINE {
+[01;32m[K                       ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:149:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+                     Arena* arena) {
+[01;32m[K                            ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:117:19:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+            Arena* arena) GOOGLE_PROTOBUF_ATTRIBUTE_ALWAYS_INLINE {
+[01;32m[K                   ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:162:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdefault_value[m[K’ [-Wunused-parameter]
+   bool IsDefault(const ::std::string* default_value) {
+[01;32m[K                                       ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:122:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+                Arena* arena) GOOGLE_PROTOBUF_ATTRIBUTE_ALWAYS_INLINE {
+[01;32m[K                       ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:130:19:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+            Arena* arena) GOOGLE_PROTOBUF_ATTRIBUTE_ALWAYS_INLINE {
+[01;32m[K                   ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:135:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+                Arena* arena) GOOGLE_PROTOBUF_ATTRIBUTE_ALWAYS_INLINE {
+[01;32m[K                       ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:149:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+                     Arena* arena) {
+[01;32m[K                            ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:162:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdefault_value[m[K’ [-Wunused-parameter]
+   bool IsDefault(const ::std::string* default_value) {
+[01;32m[K                                       ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:175:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdefault_value[m[K’ [-Wunused-parameter]
+     const ::std::string* default_value, const InlinedStringField& from) {
+[01;32m[K                          ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:175:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdefault_value[m[K’ [-Wunused-parameter]
+     const ::std::string* default_value, const InlinedStringField& from) {
+[01;32m[K                          ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:224:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdefault_value[m[K’ [-Wunused-parameter]
+     const ::std::string* default_value, StringPiece value) {
+[01;32m[K                          ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:229:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdefault_value[m[K’ [-Wunused-parameter]
+     const ::std::string* default_value, const ::std::string& value) {
+[01;32m[K                          ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:235:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdefault_value[m[K’ [-Wunused-parameter]
+     const ::std::string* default_value, ::std::string&& value) {
+[01;32m[K                          ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:224:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdefault_value[m[K’ [-Wunused-parameter]
+     const ::std::string* default_value, StringPiece value) {
+[01;32m[K                          ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:229:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdefault_value[m[K’ [-Wunused-parameter]
+     const ::std::string* default_value, const ::std::string& value) {
+[01;32m[K                          ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:254:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+     const ::std::string* default_value, Arena* arena) {
+[01;32m[K                                                ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:235:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdefault_value[m[K’ [-Wunused-parameter]
+     const ::std::string* default_value, ::std::string&& value) {
+[01;32m[K                          ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:259:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+     const ::std::string* default_value, ::std::string* value, Arena* arena) {
+[01;32m[K                                                                      ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:254:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+     const ::std::string* default_value, Arena* arena) {
+[01;32m[K                                                ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/devel/.private/protobuf_catkin/include/google/protobuf/inlined_string_field.h:259:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karena[m[K’ [-Wunused-parameter]
+     const ::std::string* default_value, ::std::string* value, Arena* arena) {
+[01;32m[K                                                                      ^[m[K

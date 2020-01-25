@@ -1,0 +1,6 @@
+read_write_data_lib
+/home/mataiyuan/ASD-SLAM/devel/.private/read_write_data_lib/share/read_write_data_lib/cmake/read_write_data_libConfig.cmake /home/mataiyuan/ASD-SLAM/devel/share/read_write_data_lib/cmake/read_write_data_libConfig.cmake
+/home/mataiyuan/ASD-SLAM/devel/.private/read_write_data_lib/share/read_write_data_lib/cmake/read_write_data_libConfig-version.cmake /home/mataiyuan/ASD-SLAM/devel/share/read_write_data_lib/cmake/read_write_data_libConfig-version.cmake
+/home/mataiyuan/ASD-SLAM/devel/.private/read_write_data_lib/include/read_write_data_lib/read_write.h /home/mataiyuan/ASD-SLAM/devel/include/read_write_data_lib/read_write.h
+/home/mataiyuan/ASD-SLAM/devel/.private/read_write_data_lib/lib/libread_write_data_lib.so /home/mataiyuan/ASD-SLAM/devel/lib/libread_write_data_lib.so
+/home/mataiyuan/ASD-SLAM/devel/.private/read_write_data_lib/lib/pkgconfig/read_write_data_lib.pc /home/mataiyuan/ASD-SLAM/devel/lib/pkgconfig/read_write_data_lib.pc

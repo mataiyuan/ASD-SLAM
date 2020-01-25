@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target aslam_cv_frames[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/aslam_cv_frames.dir/src/visual-frame.cc.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/aslam_cv_frames.dir/src/visual-nframe.cc.o[0m
+[100%] [32m[1mLinking CXX shared library /home/mataiyuan/ASD-SLAM/devel/.private/aslam_cv_frames/lib/libaslam_cv_frames.so[0m
+[100%] Built target aslam_cv_frames

@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target dbow2[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/dbow2.dir/DBoW2/BowVector.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/dbow2.dir/DBoW2/FeatureVector.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/dbow2.dir/DBoW2/FFREAK.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/dbow2.dir/DBoW2/FORB.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dbow2.dir/DBoW2/QueryResults.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/dbow2.dir/DBoW2/FSift.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/dbow2.dir/DBoW2/ScoringObject.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/dbow2.dir/DUtils/Random.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/dbow2.dir/DUtils/Timestamp.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/mataiyuan/ASD-SLAM/devel/.private/dbow2/lib/libdbow2.so[0m
+[100%] Built target dbow2

@@ -1,0 +1,1471 @@
+[35m[1mScanning dependencies of target opencv3_contrib[0m
+[  5%] [34m[1mCreating directories for 'opencv3_contrib'[0m
+[ 11%] [34m[1mPerforming download step (verify and extract) for 'opencv3_contrib'[0m
+-- verifying file...
+     file='/home/mataiyuan/ASD-SLAM/src/3rd_party/opencv3_catkin/opencv3_contrib_src.tar.gz'
+-- verifying file... warning: did not verify file - no URL_HASH specified?
+-- extracting...
+     src='/home/mataiyuan/ASD-SLAM/src/3rd_party/opencv3_catkin/opencv3_contrib_src.tar.gz'
+     dst='/home/mataiyuan/ASD-SLAM/build/opencv3_catkin/opencv3_contrib_src'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 16%] [34m[1mNo patch step for 'opencv3_contrib'[0m
+[ 22%] [34m[1mNo update step for 'opencv3_contrib'[0m
+[ 27%] [34m[1mNo configure step for 'opencv3_contrib'[0m
+[ 33%] [34m[1mNo build step for 'opencv3_contrib'[0m
+[ 38%] [34m[1mNo install step for 'opencv3_contrib'[0m
+[ 44%] [34m[1mCompleted 'opencv3_contrib'[0m
+[ 44%] Built target opencv3_contrib
+[35m[1mScanning dependencies of target opencv3_src[0m
+[ 50%] [34m[1mCreating directories for 'opencv3_src'[0m
+[ 55%] [34m[1mPerforming download step (verify and extract) for 'opencv3_src'[0m
+-- verifying file...
+     file='/home/mataiyuan/ASD-SLAM/src/3rd_party/opencv3_catkin/opencv-3.2.0.zip'
+-- verifying file... warning: did not verify file - no URL_HASH specified?
+-- extracting...
+     src='/home/mataiyuan/ASD-SLAM/src/3rd_party/opencv3_catkin/opencv-3.2.0.zip'
+     dst='/home/mataiyuan/ASD-SLAM/build/opencv3_catkin/opencv3_src'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 61%] [34m[1mPerforming patch step for 'opencv3_src'[0m
+patching file cmake/OpenCVDetectPython.cmake
+patching file cmake/OpenCVFindLAPACK.cmake
+patching file cmake/checks/lapack_check.cpp
+patching file modules/core/CMakeLists.txt
+patching file modules/core/src/hal_internal.cpp
+[ 66%] [34m[1mNo update step for 'opencv3_src'[0m
+[ 72%] [34m[1mPerforming configure step for 'opencv3_src'[0m
+-- The CXX compiler identification is GNU 5.4.0
+-- The C compiler identification is GNU 5.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detected version of GNU GCC: 54 (504)
+-- Performing Test HAVE_CXX_FSIGNED_CHAR
+-- Performing Test HAVE_CXX_FSIGNED_CHAR - Success
+-- Performing Test HAVE_C_FSIGNED_CHAR
+-- Performing Test HAVE_C_FSIGNED_CHAR - Success
+-- Performing Test HAVE_CXX_W
+-- Performing Test HAVE_CXX_W - Success
+-- Performing Test HAVE_C_W
+-- Performing Test HAVE_C_W - Success
+-- Performing Test HAVE_CXX_WALL
+-- Performing Test HAVE_CXX_WALL - Success
+-- Performing Test HAVE_C_WALL
+-- Performing Test HAVE_C_WALL - Success
+-- Performing Test HAVE_CXX_WERROR_RETURN_TYPE
+-- Performing Test HAVE_CXX_WERROR_RETURN_TYPE - Success
+-- Performing Test HAVE_C_WERROR_RETURN_TYPE
+-- Performing Test HAVE_C_WERROR_RETURN_TYPE - Success
+-- Performing Test HAVE_CXX_WERROR_NON_VIRTUAL_DTOR
+-- Performing Test HAVE_CXX_WERROR_NON_VIRTUAL_DTOR - Success
+-- Performing Test HAVE_C_WERROR_NON_VIRTUAL_DTOR
+-- Performing Test HAVE_C_WERROR_NON_VIRTUAL_DTOR - Success
+-- Performing Test HAVE_CXX_WERROR_ADDRESS
+-- Performing Test HAVE_CXX_WERROR_ADDRESS - Success
+-- Performing Test HAVE_C_WERROR_ADDRESS
+-- Performing Test HAVE_C_WERROR_ADDRESS - Success
+-- Performing Test HAVE_CXX_WERROR_SEQUENCE_POINT
+-- Performing Test HAVE_CXX_WERROR_SEQUENCE_POINT - Success
+-- Performing Test HAVE_C_WERROR_SEQUENCE_POINT
+-- Performing Test HAVE_C_WERROR_SEQUENCE_POINT - Success
+-- Performing Test HAVE_CXX_WFORMAT
+-- Performing Test HAVE_CXX_WFORMAT - Success
+-- Performing Test HAVE_C_WFORMAT
+-- Performing Test HAVE_C_WFORMAT - Success
+-- Performing Test HAVE_CXX_WERROR_FORMAT_SECURITY
+-- Performing Test HAVE_CXX_WERROR_FORMAT_SECURITY - Success
+-- Performing Test HAVE_C_WERROR_FORMAT_SECURITY
+-- Performing Test HAVE_C_WERROR_FORMAT_SECURITY - Success
+-- Performing Test HAVE_CXX_WMISSING_DECLARATIONS
+-- Performing Test HAVE_CXX_WMISSING_DECLARATIONS - Success
+-- Performing Test HAVE_C_WMISSING_DECLARATIONS
+-- Performing Test HAVE_C_WMISSING_DECLARATIONS - Success
+-- Performing Test HAVE_CXX_WMISSING_PROTOTYPES
+-- Performing Test HAVE_CXX_WMISSING_PROTOTYPES - Failed
+-- Performing Test HAVE_C_WMISSING_PROTOTYPES
+-- Performing Test HAVE_C_WMISSING_PROTOTYPES - Success
+-- Performing Test HAVE_CXX_WSTRICT_PROTOTYPES
+-- Performing Test HAVE_CXX_WSTRICT_PROTOTYPES - Failed
+-- Performing Test HAVE_C_WSTRICT_PROTOTYPES
+-- Performing Test HAVE_C_WSTRICT_PROTOTYPES - Success
+-- Performing Test HAVE_CXX_WUNDEF
+-- Performing Test HAVE_CXX_WUNDEF - Success
+-- Performing Test HAVE_C_WUNDEF
+-- Performing Test HAVE_C_WUNDEF - Success
+-- Performing Test HAVE_CXX_WINIT_SELF
+-- Performing Test HAVE_CXX_WINIT_SELF - Success
+-- Performing Test HAVE_C_WINIT_SELF
+-- Performing Test HAVE_C_WINIT_SELF - Success
+-- Performing Test HAVE_CXX_WPOINTER_ARITH
+-- Performing Test HAVE_CXX_WPOINTER_ARITH - Success
+-- Performing Test HAVE_C_WPOINTER_ARITH
+-- Performing Test HAVE_C_WPOINTER_ARITH - Success
+-- Performing Test HAVE_CXX_WSHADOW
+-- Performing Test HAVE_CXX_WSHADOW - Success
+-- Performing Test HAVE_C_WSHADOW
+-- Performing Test HAVE_C_WSHADOW - Success
+-- Performing Test HAVE_CXX_WSIGN_PROMO
+-- Performing Test HAVE_CXX_WSIGN_PROMO - Success
+-- Performing Test HAVE_C_WSIGN_PROMO
+-- Performing Test HAVE_C_WSIGN_PROMO - Failed
+-- Performing Test HAVE_CXX_WNO_NARROWING
+-- Performing Test HAVE_CXX_WNO_NARROWING - Success
+-- Performing Test HAVE_C_WNO_NARROWING
+-- Performing Test HAVE_C_WNO_NARROWING - Success
+-- Performing Test HAVE_CXX_WNO_DELETE_NON_VIRTUAL_DTOR
+-- Performing Test HAVE_CXX_WNO_DELETE_NON_VIRTUAL_DTOR - Success
+-- Performing Test HAVE_C_WNO_DELETE_NON_VIRTUAL_DTOR
+-- Performing Test HAVE_C_WNO_DELETE_NON_VIRTUAL_DTOR - Failed
+-- Performing Test HAVE_CXX_WNO_UNNAMED_TYPE_TEMPLATE_ARGS
+-- Performing Test HAVE_CXX_WNO_UNNAMED_TYPE_TEMPLATE_ARGS - Failed
+-- Performing Test HAVE_C_WNO_UNNAMED_TYPE_TEMPLATE_ARGS
+-- Performing Test HAVE_C_WNO_UNNAMED_TYPE_TEMPLATE_ARGS - Failed
+-- Performing Test HAVE_CXX_WNO_COMMENT
+-- Performing Test HAVE_CXX_WNO_COMMENT - Success
+-- Performing Test HAVE_C_WNO_COMMENT
+-- Performing Test HAVE_C_WNO_COMMENT - Success
+-- Performing Test HAVE_CXX_FDIAGNOSTICS_SHOW_OPTION
+-- Performing Test HAVE_CXX_FDIAGNOSTICS_SHOW_OPTION - Success
+-- Performing Test HAVE_C_FDIAGNOSTICS_SHOW_OPTION
+-- Performing Test HAVE_C_FDIAGNOSTICS_SHOW_OPTION - Success
+-- Performing Test HAVE_CXX_WNO_LONG_LONG
+-- Performing Test HAVE_CXX_WNO_LONG_LONG - Success
+-- Performing Test HAVE_C_WNO_LONG_LONG
+-- Performing Test HAVE_C_WNO_LONG_LONG - Success
+-- Performing Test HAVE_CXX_PTHREAD
+-- Performing Test HAVE_CXX_PTHREAD - Success
+-- Performing Test HAVE_C_PTHREAD
+-- Performing Test HAVE_C_PTHREAD - Success
+-- Performing Test HAVE_CXX_FOMIT_FRAME_POINTER
+-- Performing Test HAVE_CXX_FOMIT_FRAME_POINTER - Success
+-- Performing Test HAVE_C_FOMIT_FRAME_POINTER
+-- Performing Test HAVE_C_FOMIT_FRAME_POINTER - Success
+-- Performing Test HAVE_CXX_MSSE
+-- Performing Test HAVE_CXX_MSSE - Success
+-- Performing Test HAVE_C_MSSE
+-- Performing Test HAVE_C_MSSE - Success
+-- Performing Test HAVE_CXX_MSSE2
+-- Performing Test HAVE_CXX_MSSE2 - Success
+-- Performing Test HAVE_C_MSSE2
+-- Performing Test HAVE_C_MSSE2 - Success
+-- Performing Test HAVE_CXX_MNO_AVX
+-- Performing Test HAVE_CXX_MNO_AVX - Success
+-- Performing Test HAVE_C_MNO_AVX
+-- Performing Test HAVE_C_MNO_AVX - Success
+-- Performing Test HAVE_CXX_MSSE3
+-- Performing Test HAVE_CXX_MSSE3 - Success
+-- Performing Test HAVE_C_MSSE3
+-- Performing Test HAVE_C_MSSE3 - Success
+-- Performing Test HAVE_CXX_MNO_SSSE3
+-- Performing Test HAVE_CXX_MNO_SSSE3 - Success
+-- Performing Test HAVE_C_MNO_SSSE3
+-- Performing Test HAVE_C_MNO_SSSE3 - Success
+-- Performing Test HAVE_CXX_MNO_SSE4_1
+-- Performing Test HAVE_CXX_MNO_SSE4_1 - Success
+-- Performing Test HAVE_C_MNO_SSE4_1
+-- Performing Test HAVE_C_MNO_SSE4_1 - Success
+-- Performing Test HAVE_CXX_MNO_SSE4_2
+-- Performing Test HAVE_CXX_MNO_SSE4_2 - Success
+-- Performing Test HAVE_C_MNO_SSE4_2
+-- Performing Test HAVE_C_MNO_SSE4_2 - Success
+-- Performing Test HAVE_CXX_FFUNCTION_SECTIONS
+-- Performing Test HAVE_CXX_FFUNCTION_SECTIONS - Success
+-- Performing Test HAVE_C_FFUNCTION_SECTIONS
+-- Performing Test HAVE_C_FFUNCTION_SECTIONS - Success
+-- Performing Test HAVE_CXX_FVISIBILITY_HIDDEN
+-- Performing Test HAVE_CXX_FVISIBILITY_HIDDEN - Success
+-- Performing Test HAVE_C_FVISIBILITY_HIDDEN
+-- Performing Test HAVE_C_FVISIBILITY_HIDDEN - Success
+-- Performing Test HAVE_CXX_FVISIBILITY_INLINES_HIDDEN
+-- Performing Test HAVE_CXX_FVISIBILITY_INLINES_HIDDEN - Success
+-- Performing Test HAVE_C_FVISIBILITY_INLINES_HIDDEN
+-- Performing Test HAVE_C_FVISIBILITY_INLINES_HIDDEN - Failed
+-- FP16: Feature disabled
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Check if the system is big endian
+-- Searching 16 bit integer
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Using unsigned short
+-- Check if the system is big endian - little endian
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found suitable version "1.2.8", minimum required is "1.2.3") 
+-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.0.6") 
+-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so  
+-- Found WebP: /usr/lib/x86_64-linux-gnu/libwebp.so  
+-- Found Jasper: /usr/lib/x86_64-linux-gnu/libjasper.so (found version "1.900.1") 
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.8") 
+-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.2.54") 
+-- Looking for /usr/include/libpng/png.h
+-- Looking for /usr/include/libpng/png.h - found
+-- Found OpenEXR: /usr/lib/x86_64-linux-gnu/libIlmImf.so
+-- Checking for module 'gtk+-2.0'
+--   Found gtk+-2.0, version 2.24.30
+-- Checking for module 'gthread-2.0'
+--   Found gthread-2.0, version 2.48.2
+-- Checking for module 'gtkglext-1.0'
+--   No package 'gtkglext-1.0' found
+-- Checking for module 'gstreamer-base-1.0'
+--   No package 'gstreamer-base-1.0' found
+-- Checking for module 'gstreamer-video-1.0'
+--   No package 'gstreamer-video-1.0' found
+-- Checking for module 'gstreamer-app-1.0'
+--   No package 'gstreamer-app-1.0' found
+-- Checking for module 'gstreamer-riff-1.0'
+--   No package 'gstreamer-riff-1.0' found
+-- Checking for module 'gstreamer-pbutils-1.0'
+--   No package 'gstreamer-pbutils-1.0' found
+-- Checking for module 'gstreamer-base-0.10'
+--   No package 'gstreamer-base-0.10' found
+-- Checking for module 'gstreamer-video-0.10'
+--   No package 'gstreamer-video-0.10' found
+-- Checking for module 'gstreamer-app-0.10'
+--   No package 'gstreamer-app-0.10' found
+-- Checking for module 'gstreamer-riff-0.10'
+--   No package 'gstreamer-riff-0.10' found
+-- Checking for module 'gstreamer-pbutils-0.10'
+--   No package 'gstreamer-pbutils-0.10' found
+-- Checking for module 'libdc1394-2'
+--   Found libdc1394-2, version 2.2.4
+-- Looking for linux/videodev.h
+-- Looking for linux/videodev.h - not found
+-- Looking for linux/videodev2.h
+-- Looking for linux/videodev2.h - found
+-- Looking for sys/videoio.h
+-- Looking for sys/videoio.h - not found
+-- Checking for modules 'libavcodec;libavformat;libavutil;libswscale'
+--   Found libavcodec, version 56.60.100
+--   Found libavformat, version 56.40.101
+--   Found libavutil, version 54.31.100
+--   Found libswscale, version 3.1.101
+-- Checking for module 'libavresample'
+--   No package 'libavresample' found
+-- Checking for module 'libgphoto2'
+--   No package 'libgphoto2' found
+-- Found TBB: /usr/lib/x86_64-linux-gnu/libtbb.so
+-- Found OpenBLAS libraries: /usr/lib/libopenblas.so
+-- Found OpenBLAS include: /usr/include
+-- LAPACK(OpenBLAS): LAPACK_LIBRARIES: /usr/lib/libopenblas.so
+CMake Warning at cmake/OpenCVFindLAPACK.cmake:29 (message):
+  LAPACK(OpenBLAS): CBLAS/LAPACK headers are not found in '/usr/include'
+Call Stack (most recent call first):
+  cmake/OpenCVFindLAPACK.cmake:89 (ocv_lapack_check)
+  CMakeLists.txt:559 (include)
+
+
+-- Could NOT find Atlas (missing:  Atlas_CLAPACK_INCLUDE_DIR) 
+-- Looking for dgemm_
+-- Looking for dgemm_ - found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - found
+-- Found Threads: TRUE  
+-- A library with BLAS API found.
+-- Looking for cheev_
+-- Looking for cheev_ - found
+-- A library with LAPACK API found.
+-- LAPACK(OpenBLAS): LAPACK_LIBRARIES: /usr/lib/liblapack.so;/usr/lib/libf77blas.so;/usr/lib/libatlas.so
+CMake Warning at cmake/OpenCVFindLAPACK.cmake:29 (message):
+  LAPACK(OpenBLAS): CBLAS/LAPACK headers are not found in '/usr/include'
+Call Stack (most recent call first):
+  cmake/OpenCVFindLAPACK.cmake:151 (ocv_lapack_check)
+  CMakeLists.txt:559 (include)
+
+
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.11") 
+-- Found PythonInterp: /usr/bin/python2.7 (found suitable version "2.7.12", minimum required is "2.7") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython2.7.so (found suitable exact version "2.7.12") 
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.5.2", minimum required is "3.4") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.5m.so (found suitable exact version "3.5.2") 
+-- Found apache ant 1.9.6: /usr/bin/ant
+-- Found JNI: /usr/lib/jvm/default-java/jre/lib/amd64/libjawt.so  
+-- Could NOT find Matlab (missing:  MATLAB_MEX_SCRIPT MATLAB_INCLUDE_DIRS MATLAB_ROOT_DIR MATLAB_LIBRARIES MATLAB_LIBRARY_DIRS MATLAB_MEXEXT MATLAB_ARCH MATLAB_BIN) 
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
+but not all the files it references.
+
+-- Found VTK ver. 6.2.0 (usefile: /usr/lib/cmake/vtk-6.2/UseVTK.cmake)
+-- Performing Test HAVE_CXX_WNO_UNDEF
+-- Performing Test HAVE_CXX_WNO_UNDEF - Success
+-- Performing Test HAVE_CXX_WNO_SHADOW
+-- Performing Test HAVE_CXX_WNO_SHADOW - Success
+-- Caffe:   NO
+-- Protobuf:   YES
+-- Glog:   YES
+-- Checking for one of the modules 'freetype2'
+-- Checking for one of the modules 'harfbuzz'
+-- freetype2:   YES
+-- harfbuzz:    YES
+-- Found HDF5: /usr/lib/x86_64-linux-gnu/hdf5/serial/lib/libhdf5.so;/usr/lib/x86_64-linux-gnu/libpthread.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so (found version "1.8.16") 
+-- Performing Test HAVE_CXX_WNO_INVALID_OFFSETOF
+-- Performing Test HAVE_CXX_WNO_INVALID_OFFSETOF - Success
+-- Found installed version of Eigen: /usr/lib/cmake/eigen3
+-- Found required Ceres dependency: Eigen version 3.2.92 in /usr/include/eigen3
+-- Found installed version of glog: /usr/local/lib/cmake/glog
+-- Detected glog version: 0.3.5
+-- Found required Ceres dependency: glog
+-- Performing Test GFLAGS_IN_GOOGLE_NAMESPACE
+-- Performing Test GFLAGS_IN_GOOGLE_NAMESPACE - Success
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.0.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations]
+-- Checking SFM deps... TRUE
+-- Performing Test HAVE_CXX_WNO_DEPRECATED_DECLARATIONS
+-- Performing Test HAVE_CXX_WNO_DEPRECATED_DECLARATIONS - Success
+-- Performing Test HAVE_CXX_WNO_OVERLOADED_VIRTUAL
+-- Performing Test HAVE_CXX_WNO_OVERLOADED_VIRTUAL - Success
+-- Performing Test HAVE_CXX_WNO_UNUSED_CONST_VARIABLE
+-- Performing Test HAVE_CXX_WNO_UNUSED_CONST_VARIABLE - Failed
+-- Performing Test HAVE_CXX_WNO_UNUSED_PRIVATE_FIELD
+-- Performing Test HAVE_CXX_WNO_UNUSED_PRIVATE_FIELD - Failed
+-- 
+-- General configuration for OpenCV 3.2.0 =====================================
+--   Version control:               unknown
+-- 
+--   Extra modules:
+--     Location (extra):            /home/mataiyuan/ASD-SLAM/build/opencv3_catkin/opencv3_contrib_src/modules
+--     Version control (extra):     unknown
+-- 
+--   Platform:
+--     Timestamp:                   2020-01-25T00:12:43Z
+--     Host:                        Linux 4.15.0-74-generic x86_64
+--     CMake:                       3.5.1
+--     CMake generator:             Unix Makefiles
+--     CMake build tool:            /usr/bin/make
+--     Configuration:               Release
+-- 
+--   C/C++:
+--     Built as dynamic libs?:      YES
+--     C++ Compiler:                /usr/bin/c++  (ver 5.4.0)
+--     C++ flags (Release):         -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG
+--     C++ flags (Debug):           -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -g  -O0 -DDEBUG -D_DEBUG
+--     C Compiler:                  /usr/bin/cc
+--     C flags (Release):           -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -O3 -DNDEBUG  -DNDEBUG
+--     C flags (Debug):             -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -g  -O0 -DDEBUG -D_DEBUG
+--     Linker flags (Release):
+--     Linker flags (Debug):
+--     ccache:                      NO
+--     Precompiled headers:         NO
+--     Extra dependencies:          /usr/lib/x86_64-linux-gnu/libwebp.so /usr/lib/x86_64-linux-gnu/libjasper.so /usr/lib/x86_64-linux-gnu/libImath.so /usr/lib/x86_64-linux-gnu/libIlmImf.so /usr/lib/x86_64-linux-gnu/libIex.so /usr/lib/x86_64-linux-gnu/libHalf.so /usr/lib/x86_64-linux-gnu/libIlmThread.so gtk-x11-2.0 gdk-x11-2.0 pangocairo-1.0 atk-1.0 cairo gdk_pixbuf-2.0 gio-2.0 pangoft2-1.0 pango-1.0 gobject-2.0 glib-2.0 fontconfig freetype gthread-2.0 dc1394 avcodec-ffmpeg avformat-ffmpeg avutil-ffmpeg swscale-ffmpeg vtkRenderingOpenGL vtkImagingHybrid vtkIOImage vtkCommonDataModel vtkCommonMath vtkCommonCore vtksys vtkCommonMisc vtkCommonSystem vtkCommonTransforms vtkCommonExecutionModel vtkDICOMParser vtkIOCore /usr/lib/x86_64-linux-gnu/libz.so vtkmetaio /usr/lib/x86_64-linux-gnu/libjpeg.so /usr/lib/x86_64-linux-gnu/libpng.so /usr/lib/x86_64-linux-gnu/libtiff.so vtkImagingCore vtkRenderingCore vtkCommonColor vtkFiltersExtraction vtkFiltersCore vtkFiltersGeneral vtkCommonComputationalGeometry vtkFiltersStatistics vtkImagingFourier vtkalglib vtkFiltersGeometry vtkFiltersSources vtkInteractionStyle vtkRenderingLOD vtkFiltersModeling vtkIOPLY vtkIOGeometry /usr/lib/x86_64-linux-gnu/libjsoncpp.so vtkFiltersTexture vtkRenderingFreeType /usr/lib/x86_64-linux-gnu/libfreetype.so vtkftgl vtkIOExport vtkRenderingAnnotation vtkImagingColor vtkRenderingContext2D vtkRenderingGL2PS vtkRenderingContextOpenGL /usr/lib/libgl2ps.so vtkRenderingLabel dl m pthread rt tbb
+--     3rdparty dependencies:
+-- 
+--   OpenCV modules:
+--     To be built:                 core flann imgproc ml photo video viz imgcodecs shape videoio highgui objdetect superres features2d saliency calib3d rgbd videostab xfeatures2d phase_unwrapping stitching java python2
+--     Disabled:                    python3 ts world aruco bgsegm bioinspired ccalib contrib_world datasets dnn dpm face freetype fuzzy hdf line_descriptor optflow plot reg sfm stereo structured_light surface_matching text tracking ximgproc xobjdetect xphoto
+--     Disabled by dependency:      -
+--     Unavailable:                 cudaarithm cudabgsegm cudacodec cudafeatures2d cudafilters cudaimgproc cudalegacy cudaobjdetect cudaoptflow cudastereo cudawarping cudev cnn_3dobj cvv matlab
+-- 
+--   GUI: 
+--     QT:                          NO
+--     GTK+ 2.x:                    YES (ver 2.24.30)
+--     GThread :                    YES (ver 2.48.2)
+--     GtkGlExt:                    NO
+--     OpenGL support:              NO
+--     VTK support:                 YES (ver 6.2.0)
+-- 
+--   Media I/O: 
+--     ZLib:                        /usr/lib/x86_64-linux-gnu/libz.so (ver 1.2.8)
+--     JPEG:                        /usr/lib/x86_64-linux-gnu/libjpeg.so (ver )
+--     WEBP:                        /usr/lib/x86_64-linux-gnu/libwebp.so (ver encoder: 0x0202)
+--     PNG:                         /usr/lib/x86_64-linux-gnu/libpng.so (ver 1.2.54)
+--     TIFF:                        /usr/lib/x86_64-linux-gnu/libtiff.so (ver 42 - 4.0.6)
+--     JPEG 2000:                   /usr/lib/x86_64-linux-gnu/libjasper.so (ver 1.900.1)
+--     OpenEXR:                     /usr/lib/x86_64-linux-gnu/libImath.so /usr/lib/x86_64-linux-gnu/libIlmImf.so /usr/lib/x86_64-linux-gnu/libIex.so /usr/lib/x86_64-linux-gnu/libHalf.so /usr/lib/x86_64-linux-gnu/libIlmThread.so (ver 2.2.0)
+--     GDAL:                        NO
+--     GDCM:                        NO
+-- 
+--   Video I/O:
+--     DC1394 1.x:                  NO
+--     DC1394 2.x:                  YES (ver 2.2.4)
+--     FFMPEG:                      YES
+--       avcodec:                   YES (ver 56.60.100)
+--       avformat:                  YES (ver 56.40.101)
+--       avutil:                    YES (ver 54.31.100)
+--       swscale:                   YES (ver 3.1.101)
+--       avresample:                NO
+--     GStreamer:                   NO
+--     OpenNI:                      NO
+--     OpenNI PrimeSensor Modules:  NO
+--     OpenNI2:                     NO
+--     PvAPI:                       NO
+--     GigEVisionSDK:               NO
+--     Aravis SDK:                  NO
+--     UniCap:                      NO
+--     UniCap ucil:                 NO
+--     V4L/V4L2:                    NO/YES
+--     XIMEA:                       NO
+--     Xine:                        NO
+--     gPhoto2:                     NO
+-- 
+--   Parallel framework:            TBB (ver 4.4 interface 9002)
+-- 
+--   Other third-party libraries:
+--     Use IPP:                     NO
+--     Use IPP Async:               NO
+--     Use VA:                      NO
+--     Use Intel VA-API/OpenCL:     NO
+--     Use Lapack:                  NO
+--     Use Eigen:                   YES (ver 3.2.92)
+--     Use Cuda:                    NO
+--     Use OpenCL:                  NO
+--     Use OpenVX:                  NO
+--     Use custom HAL:              NO
+-- 
+--   Python 2:
+--     Interpreter:                 /usr/bin/python2.7 (ver 2.7.12)
+--     Libraries:                   /usr/lib/x86_64-linux-gnu/libpython2.7.so (ver 2.7.12)
+--     numpy:                       /usr/local/lib/python2.7/dist-packages/numpy/core/include (ver 1.16.4)
+--     packages path:               lib/python2.7/dist-packages
+-- 
+--   Python 3:
+--     Interpreter:                 /usr/bin/python3 (ver 3.5.2)
+-- 
+--   Python (for build):            /usr/bin/python2.7
+-- 
+--   Java:
+--     ant:                         /usr/bin/ant (ver 1.9.6)
+--     JNI:                         /usr/lib/jvm/default-java/include /usr/lib/jvm/default-java/include/linux /usr/lib/jvm/default-java/include
+--     Java wrappers:               YES
+--     Java tests:                  NO
+-- 
+--   Matlab:                        Matlab not found or implicitly disabled
+-- 
+--   Documentation:
+--     Doxygen:                     /usr/bin/doxygen (ver 1.8.11)
+-- 
+--   Tests and samples:
+--     Tests:                       NO
+--     Performance tests:           NO
+--     C/C++ Examples:              NO
+-- 
+--   Install path:                  /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin
+-- 
+--   cvconfig.h is in:              /home/mataiyuan/ASD-SLAM/build/opencv3_catkin/opencv3_src
+-- -----------------------------------------------------------------
+-- 
+CMake Warning at CMakeLists.txt:1356 (message):
+  The source directory is the same as binary directory.  "make clean" may
+  damage the source tree
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mataiyuan/ASD-SLAM/build/opencv3_catkin/opencv3_src
+[ 77%] [34m[1mPerforming build step for 'opencv3_src'[0m
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+[  0%] [34m[1mGenerating opencl_kernels_core.cpp, opencl_kernels_core.hpp[0m
+[35m[1mScanning dependencies of target opencv_core[0m
+[  1%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.o[0m
+[  1%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.o[0m
+[  1%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.o[0m
+[  1%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/system.cpp.o[0m
+[  2%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.o[0m
+[  2%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/split.cpp.o[0m
+[  2%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/copy.cpp.o[0m
+[  2%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/stl.cpp.o[0m
+[  2%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.o[0m
+[  2%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_info.cpp.o[0m
+[  2%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.o[0m
+[  3%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/kmeans.cpp.o[0m
+[  3%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/va_intel.cpp.o[0m
+[  3%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs_core.cpp.o[0m
+[  3%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/hal_internal.cpp.o[0m
+[  3%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/lda.cpp.o[0m
+[  4%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/matmul.cpp.o[0m
+[  4%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/parallel.cpp.o[0m
+[  4%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix.cpp.o[0m
+[  4%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/matop.cpp.o[0m
+[  4%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/rand.cpp.o[0m
+[  4%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/stat.cpp.o[0m
+[  5%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/dxt.cpp.o[0m
+[  5%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.o[0m
+[  5%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/algorithm.cpp.o[0m
+[  5%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/merge.cpp.o[0m
+[  5%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.o[0m
+[  6%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/lapack.cpp.o[0m
+[  6%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.o[0m
+[  6%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/opengl.cpp.o[0m
+[  6%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.o[0m
+[  6%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/pca.cpp.o[0m
+[  7%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/umatrix.cpp.o[0m
+[  7%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/lpsolver.cpp.o[0m
+[  7%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/glob.cpp.o[0m
+[  7%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/types.cpp.o[0m
+[  7%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/datastructs.cpp.o[0m
+[  7%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/convert.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/out.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/alloc.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.o[0m
+[  9%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/ocl.cpp.o[0m
+[  9%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/tables.cpp.o[0m
+[  9%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/directx.cpp.o[0m
+[  9%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/persistence.cpp.o[0m
+[  9%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/arithm.cpp.o[0m
+[  9%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.o[0m
+[ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/ovx.cpp.o[0m
+[ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.o[0m
+[ 10%] [32m[1mLinking CXX shared library ../../lib/libopencv_core.so[0m
+[ 10%] Built target opencv_core
+[35m[1mScanning dependencies of target opencv_flann[0m
+[35m[1mScanning dependencies of target opencv_viz[0m
+[35m[1mScanning dependencies of target opencv_ml[0m
+[ 11%] [34m[1mGenerating opencl_kernels_imgproc.cpp, opencl_kernels_imgproc.hpp[0m
+[ 11%] [32mBuilding CXX object modules/flann/CMakeFiles/opencv_flann.dir/src/flann.cpp.o[0m
+[ 11%] [32mBuilding CXX object modules/flann/CMakeFiles/opencv_flann.dir/src/miniflann.cpp.o[0m
+[35m[1mScanning dependencies of target opencv_imgproc[0m
+[ 12%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/gbt.cpp.o[0m
+[ 12%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/rtrees.cpp.o[0m
+[ 12%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/kdtree.cpp.o[0m
+[ 12%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/nbayes.cpp.o[0m
+[ 13%] [32mBuilding CXX object modules/viz/CMakeFiles/opencv_viz.dir/src/widget.cpp.o[0m
+[ 13%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/samplers.cpp.o[0m
+[ 13%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/morph.cpp.o[0m
+[ 13%] [32mBuilding CXX object modules/viz/CMakeFiles/opencv_viz.dir/src/shapes.cpp.o[0m
+[ 13%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/histogram.cpp.o[0m
+[ 13%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/undistort.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/main.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/accum.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/data.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/viz/CMakeFiles/opencv_viz.dir/src/clouds.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/matchcontours.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/viz/CMakeFiles/opencv_viz.dir/src/vtk/vtkImageMatSource.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/viz/CMakeFiles/opencv_viz.dir/src/vtk/vtkCloudMatSink.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/viz/CMakeFiles/opencv_viz.dir/src/vtk/vtkCloudMatSource.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/drawing.cpp.o[0m
+[ 15%] [32mBuilding CXX object modules/viz/CMakeFiles/opencv_viz.dir/src/vtk/vtkXYZWriter.cpp.o[0m
+[ 15%] [32mBuilding CXX object modules/viz/CMakeFiles/opencv_viz.dir/src/vtk/vtkVizInteractorStyle.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/svm.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/testset.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/viz/CMakeFiles/opencv_viz.dir/src/vtk/vtkXYZReader.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/svmsgd.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/sumpixels.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/geometry.cpp.o[0m
+[ 17%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/lsd.cpp.o[0m
+[ 17%] [32mBuilding CXX object modules/viz/CMakeFiles/opencv_viz.dir/src/vtk/vtkOBJWriter.cpp.o[0m
+[ 17%] [32mBuilding CXX object modules/viz/CMakeFiles/opencv_viz.dir/src/vtk/vtkTrajectorySource.cpp.o[0m
+[ 18%] [32mBuilding CXX object modules/viz/CMakeFiles/opencv_viz.dir/src/types.cpp.o[0m
+[ 18%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/featureselect.cpp.o[0m
+[ 18%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/subdivision2d.cpp.o[0m
+[ 18%] [32mBuilding CXX object modules/viz/CMakeFiles/opencv_viz.dir/src/vizimpl.cpp.o[0m
+[ 18%] [32mBuilding CXX object modules/viz/CMakeFiles/opencv_viz.dir/src/viz3d.cpp.o[0m
+[ 18%] [32mBuilding CXX object modules/viz/CMakeFiles/opencv_viz.dir/src/vizcore.cpp.o[0m
+[ 18%] [32m[1mLinking CXX shared library ../../lib/libopencv_flann.so[0m
+[ 18%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/distransform.cpp.o[0m
+[ 18%] Built target opencv_flann
+[ 18%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/imgwarp.cpp.o[0m
+[ 18%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/tree.cpp.o[0m
+[ 18%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/lr.cpp.o[0m
+[ 19%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/connectedcomponents.cpp.o[0m
+[ 19%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/min_enclosing_triangle.cpp.o[0m
+[ 19%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color.cpp.o[0m
+[ 19%] [32m[1mLinking CXX shared library ../../lib/libopencv_viz.so[0m
+[ 19%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/clahe.cpp.o[0m
+[ 19%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/boost.cpp.o[0m
+[ 19%] Built target opencv_viz
+[ 19%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/cornersubpix.cpp.o[0m
+[ 20%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/knearest.cpp.o[0m
+[ 20%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/ann_mlp.cpp.o[0m
+[ 21%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/pyramids.cpp.o[0m
+[ 21%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/em.cpp.o[0m
+[ 21%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours.cpp.o[0m
+[ 21%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/hershey_fonts.cpp.o[0m
+[ 21%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/inner_functions.cpp.o[0m
+[ 21%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/floodfill.cpp.o[0m
+[ 21%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/moments.cpp.o[0m
+[ 21%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/phasecorr.cpp.o[0m
+[ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/segmentation.cpp.o[0m
+[ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/thresh.cpp.o[0m
+[ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/intersection.cpp.o[0m
+[ 22%] [32m[1mLinking CXX shared library ../../lib/libopencv_ml.so[0m
+[ 22%] Built target opencv_ml
+[ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/colormap.cpp.o[0m
+[ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/corner.cpp.o[0m
+[ 23%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/generalized_hough.cpp.o[0m
+[ 23%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/filter.cpp.o[0m
+[ 23%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/emd.cpp.o[0m
+[ 23%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/gabor.cpp.o[0m
+[ 23%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/rotcalipers.cpp.o[0m
+[ 24%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/demosaicing.cpp.o[0m
+[ 24%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/spatialgradient.cpp.o[0m
+[ 24%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/shapedescr.cpp.o[0m
+[ 24%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/deriv.cpp.o[0m
+[ 24%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/smooth.cpp.o[0m
+[ 24%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/templmatch.cpp.o[0m
+[ 25%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/canny.cpp.o[0m
+[ 25%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/grabcut.cpp.o[0m
+[ 25%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/blend.cpp.o[0m
+[ 25%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/utils.cpp.o[0m
+[ 25%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/tables.cpp.o[0m
+[ 26%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/hough.cpp.o[0m
+[ 26%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/convhull.cpp.o[0m
+[ 26%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/linefit.cpp.o[0m
+[ 26%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/approx.cpp.o[0m
+[ 26%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/opencl_kernels_imgproc.cpp.o[0m
+[ 27%] [32m[1mLinking CXX shared library ../../lib/libopencv_imgproc.so[0m
+[ 27%] Built target opencv_imgproc
+[ 28%] [34m[1mGenerating opencl_kernels_photo.cpp, opencl_kernels_photo.hpp[0m
+[ 28%] [34m[1mGenerating opencl_kernels_video.cpp, opencl_kernels_video.hpp[0m
+[35m[1mScanning dependencies of target opencv_imgcodecs[0m
+[35m[1mScanning dependencies of target opencv_photo[0m
+[35m[1mScanning dependencies of target opencv_video[0m
+[ 28%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/compat_video.cpp.o[0m
+[ 28%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/tvl1flow.cpp.o[0m
+[ 28%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.cpp.o[0m
+[ 28%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.o[0m
+[ 28%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.o[0m
+[ 29%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/kalman.cpp.o[0m
+[ 29%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.o[0m
+[ 29%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o[0m
+[ 29%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.o[0m
+[ 30%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/ecc.cpp.o[0m
+[ 30%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o[0m
+[ 30%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cpp.o[0m
+[ 30%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/merge.cpp.o[0m
+[ 30%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.o[0m
+[ 31%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o[0m
+[ 31%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.o[0m
+[ 31%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.o[0m
+[ 32%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.o[0m
+[ 32%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/camshift.cpp.o[0m
+[ 32%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.o[0m
+[ 32%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.o[0m
+[ 32%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/npr.cpp.o[0m
+[ 32%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/opencl_kernels_video.cpp.o[0m
+[ 32%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o[0m
+[ 32%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o[0m
+[ 32%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o[0m
+[ 33%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/align.cpp.o[0m
+[ 33%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.o[0m
+[ 33%] [32m[1mLinking CXX shared library ../../lib/libopencv_video.so[0m
+[ 33%] Built target opencv_video
+[ 33%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.o[0m
+[ 34%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.o[0m
+[ 34%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o[0m
+[35m[1mScanning dependencies of target opencv_shape[0m
+[ 34%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.o[0m
+[ 34%] [32mBuilding CXX object modules/shape/CMakeFiles/opencv_shape.dir/src/emdL1.cpp.o[0m
+[ 35%] [32mBuilding CXX object modules/shape/CMakeFiles/opencv_shape.dir/src/tps_trans.cpp.o[0m
+[ 35%] [32mBuilding CXX object modules/shape/CMakeFiles/opencv_shape.dir/src/precomp.cpp.o[0m
+[ 35%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o[0m
+[ 35%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.o[0m
+[ 35%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.o[0m
+[ 35%] [32mBuilding CXX object modules/shape/CMakeFiles/opencv_shape.dir/src/aff_trans.cpp.o[0m
+[ 35%] [32mBuilding CXX object modules/shape/CMakeFiles/opencv_shape.dir/src/haus_dis.cpp.o[0m
+[ 35%] [32mBuilding CXX object modules/shape/CMakeFiles/opencv_shape.dir/src/hist_cost.cpp.o[0m
+[ 35%] [32mBuilding CXX object modules/shape/CMakeFiles/opencv_shape.dir/src/sc_dis.cpp.o[0m
+[ 35%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o[0m
+[ 35%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.o[0m
+[ 35%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.o[0m
+[ 35%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/opencl_kernels_photo.cpp.o[0m
+[ 36%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.o[0m
+[ 36%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.o[0m
+[ 36%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.o[0m
+[ 36%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.o[0m
+[ 37%] [32m[1mLinking CXX shared library ../../lib/libopencv_shape.so[0m
+[ 37%] [32m[1mLinking CXX shared library ../../lib/libopencv_imgcodecs.so[0m
+[ 37%] Built target opencv_shape
+[ 37%] Built target opencv_imgcodecs
+[35m[1mScanning dependencies of target opencv_videoio[0m
+[ 37%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_v4l.cpp.o[0m
+[ 37%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_decoder.cpp.o[0m
+[ 38%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_images.cpp.o[0m
+[ 38%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_dc1394_v2.cpp.o[0m
+[ 38%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_encoder.cpp.o[0m
+[ 38%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap.cpp.o[0m
+[ 39%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_ffmpeg.cpp.o[0m
+[ 39%] [32m[1mLinking CXX shared library ../../lib/libopencv_videoio.so[0m
+[ 39%] Built target opencv_videoio
+[35m[1mScanning dependencies of target opencv_highgui[0m
+[ 40%] [34m[1mGenerating opencl_kernels_superres.cpp, opencl_kernels_superres.hpp[0m
+[35m[1mScanning dependencies of target opencv_superres[0m
+[ 40%] [32mBuilding CXX object modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library ../../lib/libopencv_photo.so[0m
+[ 40%] [32mBuilding CXX object modules/superres/CMakeFiles/opencv_superres.dir/src/optical_flow.cpp.o[0m
+[ 40%] [32mBuilding CXX object modules/superres/CMakeFiles/opencv_superres.dir/src/frame_source.cpp.o[0m
+[ 40%] [32mBuilding CXX object modules/superres/CMakeFiles/opencv_superres.dir/src/btv_l1.cpp.o[0m
+[ 40%] [32mBuilding CXX object modules/superres/CMakeFiles/opencv_superres.dir/src/super_resolution.cpp.o[0m
+[ 40%] [32mBuilding CXX object modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.cpp.o[0m
+[ 41%] [32mBuilding CXX object modules/superres/CMakeFiles/opencv_superres.dir/src/btv_l1_cuda.cpp.o[0m
+[ 41%] Built target opencv_photo
+[ 41%] [32mBuilding CXX object modules/superres/CMakeFiles/opencv_superres.dir/src/input_array_utility.cpp.o[0m
+[ 41%] [32mBuilding CXX object modules/superres/CMakeFiles/opencv_superres.dir/opencl_kernels_superres.cpp.o[0m
+[ 42%] [32m[1mLinking CXX shared library ../../lib/libopencv_highgui.so[0m
+[ 42%] Built target opencv_highgui
+[35m[1mScanning dependencies of target opencv_annotation[0m
+[ 43%] [34m[1mGenerating opencl_kernels_objdetect.cpp, opencl_kernels_objdetect.hpp[0m
+[35m[1mScanning dependencies of target opencv_visualisation[0m
+[ 43%] [34m[1mGenerating opencl_kernels_features2d.cpp, opencl_kernels_features2d.hpp[0m
+[35m[1mScanning dependencies of target opencv_version[0m
+[ 43%] [32mBuilding CXX object apps/annotation/CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.o[0m
+[ 43%] [32mBuilding CXX object apps/version/CMakeFiles/opencv_version.dir/opencv_version.cpp.o[0m
+[ 43%] [32mBuilding CXX object apps/visualisation/CMakeFiles/opencv_visualisation.dir/opencv_visualisation.cpp.o[0m
+[35m[1mScanning dependencies of target opencv_features2d[0m
+[35m[1mScanning dependencies of target opencv_objdetect[0m
+[ 43%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/main.cpp.o[0m
+[ 43%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.o[0m
+[ 43%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.cpp.o[0m
+[ 43%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/dynamic.cpp.o[0m
+[ 43%] [32m[1mLinking CXX executable ../../bin/opencv_version[0m
+[ 43%] [32m[1mLinking CXX shared library ../../lib/libopencv_superres.so[0m
+[ 43%] Built target opencv_version
+[ 43%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/main.cpp.o[0m
+[ 43%] Built target opencv_superres
+[ 43%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/brisk.cpp.o[0m
+[ 43%] [32m[1mLinking CXX executable ../../bin/opencv_annotation[0m
+[ 43%] Built target opencv_annotation
+[ 44%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/gftt.cpp.o[0m
+[ 44%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/orb.cpp.o[0m
+[ 44%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.o[0m
+[ 44%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/AKAZEFeatures.cpp.o[0m
+[ 44%] [32m[1mLinking CXX executable ../../bin/opencv_visualisation[0m
+[ 45%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.o[0m
+[ 45%] Built target opencv_visualisation
+[ 45%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.cpp.o[0m
+[ 45%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/nldiffusion_functions.cpp.o[0m
+[ 45%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/KAZEFeatures.cpp.o[0m
+[ 45%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.o[0m
+[ 46%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/fed.cpp.o[0m
+[ 46%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast.cpp.o[0m
+[ 46%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/keypoint.cpp.o[0m
+[ 46%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze.cpp.o[0m
+[ 46%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/evaluation.cpp.o[0m
+[ 46%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/blobdetector.cpp.o[0m
+[ 47%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/matchers.cpp.o[0m
+[ 47%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast_score.cpp.o[0m
+[ 47%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/akaze.cpp.o[0m
+[ 47%] [32m[1mLinking CXX shared library ../../lib/libopencv_objdetect.so[0m
+[ 47%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/draw.cpp.o[0m
+[ 47%] Built target opencv_objdetect
+[ 47%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/mser.cpp.o[0m
+[ 48%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast_score.cpp.o[0m
+[ 48%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/feature2d.cpp.o[0m
+[ 48%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/bagofwords.cpp.o[0m
+[ 48%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast.cpp.o[0m
+[ 48%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/opencl_kernels_features2d.cpp.o[0m
+[ 49%] [32m[1mLinking CXX shared library ../../lib/libopencv_features2d.so[0m
+[ 49%] Built target opencv_features2d
+[ 49%] [34m[1mGenerating opencl_kernels_calib3d.cpp, opencl_kernels_calib3d.hpp[0m
+[35m[1mScanning dependencies of target opencv_saliency[0m
+[35m[1mScanning dependencies of target opencv_calib3d[0m
+[ 50%] [32mBuilding CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/BING/CmShow.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/BING/ValStructVec.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/motionSaliencyBinWangApr2014.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/objectness.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/BING/objectnessBING.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/BING/CmFile.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/BING/FilterTIG.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/homography_decomp.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/main.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/saliency.cpp.o[0m
+[ 51%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/levmarq.cpp.o[0m
+[ 51%] [32mBuilding CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/motionSaliency.cpp.o[0m
+[ 51%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibinit.cpp.o[0m
+[ 51%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/checkchessboard.cpp.o[0m
+[ 52%] [32mBuilding CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/staticSaliencyFineGrained.cpp.o[0m
+[ 52%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/rho.cpp.o[0m
+[ 52%] [32mBuilding CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/staticSaliencySpectralResidual.cpp.o[0m
+[ 52%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/epnp.cpp.o[0m
+[ 53%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/polynom_solver.cpp.o[0m
+[ 53%] [32mBuilding CXX object modules/saliency/CMakeFiles/opencv_saliency.dir/src/staticSaliency.cpp.o[0m
+[ 53%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/five-point.cpp.o[0m
+[ 53%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/ptsetreg.cpp.o[0m
+[ 53%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/dls.cpp.o[0m
+[ 53%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibration.cpp.o[0m
+[ 53%] [32m[1mLinking CXX shared library ../../lib/libopencv_saliency.so[0m
+[ 54%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereobm.cpp.o[0m
+[ 54%] Built target opencv_saliency
+[ 54%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/solvepnp.cpp.o[0m
+[ 54%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/circlesgrid.cpp.o[0m
+[ 54%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/compat_ptsetreg.cpp.o[0m
+[ 54%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fisheye.cpp.o[0m
+[ 54%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/upnp.cpp.o[0m
+[ 55%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/triangulate.cpp.o[0m
+[ 55%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/quadsubpix.cpp.o[0m
+[ 55%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fundam.cpp.o[0m
+[ 55%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereosgbm.cpp.o[0m
+[ 55%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/compat_stereo.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/posit.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/p3p.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/opencl_kernels_calib3d.cpp.o[0m
+[ 56%] [32m[1mLinking CXX shared library ../../lib/libopencv_calib3d.so[0m
+[ 56%] Built target opencv_calib3d
+[ 57%] [34m[1mGenerating opencl_kernels_xfeatures2d.cpp, opencl_kernels_xfeatures2d.hpp[0m
+[35m[1mScanning dependencies of target opencv_videostab[0m
+[35m[1mScanning dependencies of target opencv_rgbd[0m
+[35m[1mScanning dependencies of target opencv_createsamples[0m
+[35m[1mScanning dependencies of target opencv_traincascade[0m
+[ 57%] [32mBuilding CXX object apps/createsamples/CMakeFiles/opencv_createsamples.dir/createsamples.cpp.o[0m
+[ 57%] [32mBuilding CXX object apps/createsamples/CMakeFiles/opencv_createsamples.dir/utility.cpp.o[0m
+[35m[1mScanning dependencies of target opencv_xfeatures2d[0m
+[ 57%] [32mBuilding CXX object apps/traincascade/CMakeFiles/opencv_traincascade.dir/haarfeatures.cpp.o[0m
+[ 58%] [32mBuilding CXX object apps/traincascade/CMakeFiles/opencv_traincascade.dir/cascadeclassifier.cpp.o[0m
+[ 58%] [32mBuilding CXX object modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/odometry.cpp.o[0m
+[ 58%] [32mBuilding CXX object apps/traincascade/CMakeFiles/opencv_traincascade.dir/features.cpp.o[0m
+[ 58%] [32mBuilding CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/motion_stabilizing.cpp.o[0m
+[ 58%] [32mBuilding CXX object apps/traincascade/CMakeFiles/opencv_traincascade.dir/traincascade.cpp.o[0m
+[ 58%] [32mBuilding CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/vgg.cpp.o[0m
+[ 58%] [32mBuilding CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/stardetector.cpp.o[0m
+[ 58%] [32mBuilding CXX object apps/traincascade/CMakeFiles/opencv_traincascade.dir/old_ml_data.cpp.o[0m
+[ 59%] [32m[1mLinking CXX executable ../../bin/opencv_createsamples[0m
+[ 59%] Built target opencv_createsamples
+[ 59%] [32mBuilding CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/global_motion.cpp.o[0m
+[ 59%] [32mBuilding CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/frame_source.cpp.o[0m
+[ 59%] [32mBuilding CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/deblurring.cpp.o[0m
+[ 59%] [32mBuilding CXX object apps/traincascade/CMakeFiles/opencv_traincascade.dir/old_ml_tree.cpp.o[0m
+[ 59%] [32mBuilding CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/xfeatures2d_init.cpp.o[0m
+[ 59%] [32mBuilding CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/brief.cpp.o[0m
+[ 59%] [32mBuilding CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/msd.cpp.o[0m
+[ 59%] [32mBuilding CXX object apps/traincascade/CMakeFiles/opencv_traincascade.dir/old_ml_inner_functions.cpp.o[0m
+[ 60%] [32mBuilding CXX object apps/traincascade/CMakeFiles/opencv_traincascade.dir/imagestorage.cpp.o[0m
+[ 60%] [32mBuilding CXX object apps/traincascade/CMakeFiles/opencv_traincascade.dir/boost.cpp.o[0m
+[ 61%] [32mBuilding CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/optical_flow.cpp.o[0m
+[ 61%] [32mBuilding CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/log.cpp.o[0m
+[ 61%] [32mBuilding CXX object modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/depth_to_3d.cpp.o[0m
+[ 62%] [32mBuilding CXX object modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/depth_registration.cpp.o[0m
+[ 63%] [32mBuilding CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/lucid.cpp.o[0m
+[ 63%] [32mBuilding CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/inpainting.cpp.o[0m
+[ 63%] [32mBuilding CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/daisy.cpp.o[0m
+[ 63%] [32mBuilding CXX object modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/depth_cleaner.cpp.o[0m
+[ 63%] [32mBuilding CXX object apps/traincascade/CMakeFiles/opencv_traincascade.dir/lbpfeatures.cpp.o[0m
+[ 63%] [32mBuilding CXX object modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/normal.cpp.o[0m
+[ 63%] [32mBuilding CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/latch.cpp.o[0m
+[ 63%] [32mBuilding CXX object apps/traincascade/CMakeFiles/opencv_traincascade.dir/old_ml_boost.cpp.o[0m
+[ 63%] [32mBuilding CXX object apps/traincascade/CMakeFiles/opencv_traincascade.dir/HOGfeatures.cpp.o[0m
+[ 63%] [32mBuilding CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/stabilizer.cpp.o[0m
+[ 63%] [32mBuilding CXX object modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/linemod.cpp.o[0m
+[ 63%] [32mBuilding CXX object modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/utils.cpp.o[0m
+[ 63%] [32mBuilding CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/surf.cpp.o[0m
+[ 63%] [32mBuilding CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/sift.cpp.o[0m
+[ 64%] [32mBuilding CXX object modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/plane.cpp.o[0m
+[ 65%] [32mBuilding CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/pct_signatures.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable ../../bin/opencv_traincascade[0m
+[ 66%] Built target opencv_traincascade
+[ 66%] [32mBuilding CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/boostdesc.cpp.o[0m
+[ 66%] [32mBuilding CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/fast_marching.cpp.o[0m
+[ 67%] [32mBuilding CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/outlier_rejection.cpp.o[0m
+[ 67%] [32mBuilding CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/wobble_suppression.cpp.o[0m
+[ 67%] [32mBuilding CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/surf.cuda.cpp.o[0m
+[ 67%] [32mBuilding CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/surf.ocl.cpp.o[0m
+[ 67%] [32mBuilding CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/pct_signatures/grayscale_bitmap.cpp.o[0m
+[ 68%] [32mBuilding CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/pct_signatures/pct_sampler.cpp.o[0m
+[ 68%] [32mBuilding CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/pct_signatures/pct_clusterizer.cpp.o[0m
+[ 68%] [32mBuilding CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/freak.cpp.o[0m
+[ 68%] [32m[1mLinking CXX shared library ../../lib/libopencv_videostab.so[0m
+[ 68%] [32mBuilding CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/pct_signatures_sqfd.cpp.o[0m
+[ 68%] Built target opencv_videostab
+[ 68%] [32mBuilding CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/opencl_kernels_xfeatures2d.cpp.o[0m
+[ 68%] [32m[1mLinking CXX shared library ../../lib/libopencv_rgbd.so[0m
+[ 68%] Built target opencv_rgbd
+[35m[1mScanning dependencies of target opencv_phase_unwrapping[0m
+[ 68%] [32mBuilding CXX object modules/phase_unwrapping/CMakeFiles/opencv_phase_unwrapping.dir/src/histogramphaseunwrapping.cpp.o[0m
+[ 68%] [32m[1mLinking CXX shared library ../../lib/libopencv_phase_unwrapping.so[0m
+[ 68%] Built target opencv_phase_unwrapping
+[ 69%] [32m[1mLinking CXX shared library ../../lib/libopencv_xfeatures2d.so[0m
+[ 69%] Built target opencv_xfeatures2d
+[ 69%] [34m[1mGenerating opencl_kernels_stitching.cpp, opencl_kernels_stitching.hpp[0m
+[35m[1mScanning dependencies of target opencv_stitching[0m
+[ 69%] [34m[1mGenerating gen/imgproc+LineSegmentDetector.java, gen/imgproc+CLAHE.java, gen/imgproc+Subdiv2D.java, gen/imgproc+Imgproc.java, gen/imgproc.cpp[0m
+[ 69%] [34m[1mGenerating gen/ml+SVM.java, gen/ml+EM.java, gen/ml+TrainData.java, gen/ml+LogisticRegression.java, gen/ml+NormalBayesClassifier.java, gen/ml+Boost.java, gen/ml+RTrees.java, gen/ml+Ml.java, gen/ml+ANN_MLP.java, gen/ml+KNearest.java, gen/ml+DTrees.java, gen/ml+StatModel.java, gen/ml+SVMSGD.java, gen/ml.cpp[0m
+[ 69%] [34m[1mGenerating gen/core+TickMeter.java, gen/core+Algorithm.java, gen/core+Core.java, gen/core.cpp[0m
+[ 69%] [34m[1mGenerating gen/photo+AlignMTB.java, gen/photo+MergeDebevec.java, gen/photo+TonemapReinhard.java, gen/photo+MergeMertens.java, gen/photo+MergeRobertson.java, gen/photo+Tonemap.java, gen/photo+MergeExposures.java, gen/photo+TonemapMantiuk.java, gen/photo+AlignExposures.java, gen/photo+CalibrateRobertson.java, gen/photo+TonemapDurand.java, gen/photo+CalibrateCRF.java, gen/photo+Photo.java, gen/photo+CalibrateDebevec.java, gen/photo+TonemapDrago.java, gen/photo.cpp[0m
+[ 70%] [34m[1mGenerating gen/video+DualTVL1OpticalFlow.java, gen/video+BackgroundSubtractor.java, gen/video+Video.java, gen/video+SparseOpticalFlow.java, gen/video+DenseOpticalFlow.java, gen/video+BackgroundSubtractorMOG2.java, gen/video+SparsePyrLKOpticalFlow.java, gen/video+FarnebackOpticalFlow.java, gen/video+BackgroundSubtractorKNN.java, gen/video+KalmanFilter.java, gen/video.cpp[0m
+[ 70%] [34m[1mGenerating gen/imgcodecs+Imgcodecs.java, gen/imgcodecs.cpp[0m
+[ 70%] [34m[1mGenerating gen/videoio+Videoio.java, gen/videoio+VideoCapture.java, gen/videoio+VideoWriter.java, gen/videoio.cpp[0m
+[ 70%] [34m[1mGenerating gen/objdetect+CascadeClassifier.java, gen/objdetect+BaseCascadeClassifier.java, gen/objdetect+HOGDescriptor.java, gen/objdetect+Objdetect.java, gen/objdetect.cpp[0m
+[ 70%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.o[0m
+SKIP:bool read(FileNode node)	 due to ARG typeFileNode/I
+[ 70%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.o[0m
+SKIP:void getNames(vector_String names)	 due to ARG typevector_String/I
+[ 70%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/util.cpp.o[0m
+[ 70%] [34m[1mGenerating gen/features2d+MSER.java, gen/features2d+FastFeatureDetector.java, gen/features2d+AgastFeatureDetector.java, gen/features2d+BFMatcher.java, gen/features2d+ORB.java, gen/features2d+AKAZE.java, gen/features2d+DescriptorMatcher.java, gen/features2d+BRISK.java, gen/features2d+BOWKMeansTrainer.java, gen/features2d+BOWTrainer.java, gen/features2d+FeatureDetector.java, gen/features2d+BOWImgDescriptorExtractor.java, gen/features2d+GFTTDetector.java, gen/features2d+KAZE.java, gen/features2d+Features2d.java, gen/features2d+Feature2D.java, gen/features2d+DescriptorExtractor.java, gen/features2d+Params.java, gen/features2d+FlannBasedMatcher.java, gen/features2d.cpp[0m
+[ 71%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/blenders.cpp.o[0m
+[ 71%] [34m[1mGenerating gen/calib3d+Calib3d.java, gen/calib3d+StereoSGBM.java, gen/calib3d+StereoMatcher.java, gen/calib3d+StereoBM.java, gen/calib3d.cpp[0m
+SKIP:BOWImgDescriptorExtractor(Ptr_DescriptorExtractor dextractor, Ptr_DescriptorMatcher dmatcher)	 due to ARG typePtr_DescriptorExtractor/I
+[ 71%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.o[0m
+duplicated: CONST CALIB_FIX_PRINCIPAL_POINT=1 << 9
+SKIP:uchar Params::blobColor	 due to RET typeuchar
+SKIP:void Params::blobColor	 due to ARG typeuchar/I
+[ 71%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/matchers.cpp.o[0m
+[ 72%] [34m[1mGenerating gen/xfeatures2d+PCTSignaturesSQFD.java, gen/xfeatures2d+StarDetector.java, gen/xfeatures2d+LATCH.java, gen/xfeatures2d+MSDDetector.java, gen/xfeatures2d+FREAK.java, gen/xfeatures2d+SURF.java, gen/xfeatures2d+LUCID.java, gen/xfeatures2d+SIFT.java, gen/xfeatures2d+DAISY.java, gen/xfeatures2d+PCTSignatures.java, gen/xfeatures2d+VGG.java, gen/xfeatures2d+BriefDescriptorExtractor.java, gen/xfeatures2d+BoostDesc.java, gen/xfeatures2d+Xfeatures2d.java, gen/xfeatures2d.cpp[0m
+[ 72%] [34m[1mGenerating gen/phase_unwrapping+PhaseUnwrapping.java, gen/phase_unwrapping+HistogramPhaseUnwrapping.java, gen/phase_unwrapping+Phase_unwrapping.java, gen/phase_unwrapping.cpp[0m
+[ 72%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/camera.cpp.o[0m
+[ 72%] [34m[1mGenerating src/org/opencv/core/TickMeter.java[0m
+[ 72%] [34m[1mGenerating src/org/opencv/core/Algorithm.java[0m
+[ 72%] [34m[1mGenerating src/org/opencv/core/Core.java[0m
+[ 72%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.o[0m
+[ 73%] [34m[1mGenerating src/org/opencv/imgproc/LineSegmentDetector.java[0m
+[ 73%] [34m[1mGenerating src/org/opencv/imgproc/CLAHE.java[0m
+[ 73%] [34m[1mGenerating src/org/opencv/imgproc/Subdiv2D.java[0m
+[ 73%] [34m[1mGenerating src/org/opencv/imgproc/Imgproc.java[0m
+[ 73%] [34m[1mGenerating src/org/opencv/ml/SVM.java[0m
+[ 73%] [34m[1mGenerating src/org/opencv/ml/EM.java[0m
+[ 74%] [34m[1mGenerating src/org/opencv/ml/TrainData.java[0m
+[ 75%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers.cpp.o[0m
+[ 75%] [34m[1mGenerating src/org/opencv/ml/LogisticRegression.java[0m
+[ 75%] [34m[1mGenerating src/org/opencv/ml/NormalBayesClassifier.java[0m
+[ 75%] [34m[1mGenerating src/org/opencv/ml/Boost.java[0m
+[ 75%] [34m[1mGenerating src/org/opencv/ml/RTrees.java[0m
+[ 76%] [34m[1mGenerating src/org/opencv/ml/Ml.java[0m
+[ 76%] [34m[1mGenerating src/org/opencv/ml/ANN_MLP.java[0m
+[ 76%] [34m[1mGenerating src/org/opencv/ml/KNearest.java[0m
+[ 76%] [34m[1mGenerating src/org/opencv/ml/DTrees.java[0m
+[ 76%] [34m[1mGenerating src/org/opencv/ml/StatModel.java[0m
+[ 77%] [34m[1mGenerating src/org/opencv/ml/SVMSGD.java[0m
+[ 77%] [34m[1mGenerating src/org/opencv/photo/AlignMTB.java[0m
+[ 77%] [34m[1mGenerating src/org/opencv/photo/MergeDebevec.java[0m
+[ 77%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.o[0m
+[ 77%] [34m[1mGenerating src/org/opencv/photo/TonemapReinhard.java[0m
+[ 77%] [34m[1mGenerating src/org/opencv/photo/MergeMertens.java[0m
+[ 77%] [34m[1mGenerating src/org/opencv/photo/MergeRobertson.java[0m
+[ 78%] [34m[1mGenerating src/org/opencv/photo/Tonemap.java[0m
+[ 78%] [34m[1mGenerating src/org/opencv/photo/MergeExposures.java[0m
+[ 78%] [34m[1mGenerating src/org/opencv/photo/TonemapMantiuk.java[0m
+[ 78%] [34m[1mGenerating src/org/opencv/photo/AlignExposures.java[0m
+[ 78%] [34m[1mGenerating src/org/opencv/photo/CalibrateRobertson.java[0m
+[ 79%] [34m[1mGenerating src/org/opencv/photo/TonemapDurand.java[0m
+[ 79%] [34m[1mGenerating src/org/opencv/photo/CalibrateCRF.java[0m
+[ 79%] [34m[1mGenerating src/org/opencv/photo/Photo.java[0m
+[ 79%] [34m[1mGenerating src/org/opencv/photo/CalibrateDebevec.java[0m
+[ 79%] [34m[1mGenerating src/org/opencv/photo/TonemapDrago.java[0m
+[ 80%] [34m[1mGenerating src/org/opencv/video/DualTVL1OpticalFlow.java[0m
+[ 80%] [34m[1mGenerating src/org/opencv/video/BackgroundSubtractor.java[0m
+[ 80%] [34m[1mGenerating src/org/opencv/video/Video.java[0m
+[ 80%] [34m[1mGenerating src/org/opencv/video/SparseOpticalFlow.java[0m
+[ 80%] [34m[1mGenerating src/org/opencv/video/DenseOpticalFlow.java[0m
+[ 80%] [34m[1mGenerating src/org/opencv/video/BackgroundSubtractorMOG2.java[0m
+[ 80%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.o[0m
+[ 81%] [34m[1mGenerating src/org/opencv/video/SparsePyrLKOpticalFlow.java[0m
+[ 81%] [34m[1mGenerating src/org/opencv/video/FarnebackOpticalFlow.java[0m
+[ 81%] [34m[1mGenerating src/org/opencv/video/BackgroundSubtractorKNN.java[0m
+[ 81%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.o[0m
+[ 81%] [34m[1mGenerating src/org/opencv/video/KalmanFilter.java[0m
+[ 81%] [34m[1mGenerating src/org/opencv/imgcodecs/Imgcodecs.java[0m
+[ 82%] [34m[1mGenerating src/org/opencv/videoio/Videoio.java[0m
+[ 82%] [34m[1mGenerating src/org/opencv/videoio/VideoCapture.java[0m
+[ 82%] [34m[1mGenerating src/org/opencv/videoio/VideoWriter.java[0m
+[ 82%] [34m[1mGenerating src/org/opencv/objdetect/CascadeClassifier.java[0m
+[ 82%] [34m[1mGenerating src/org/opencv/objdetect/BaseCascadeClassifier.java[0m
+[ 83%] [34m[1mGenerating src/org/opencv/objdetect/HOGDescriptor.java[0m
+[ 83%] [34m[1mGenerating src/org/opencv/objdetect/Objdetect.java[0m
+[ 83%] [34m[1mGenerating src/org/opencv/features2d/MSER.java[0m
+[ 83%] [34m[1mGenerating src/org/opencv/features2d/FastFeatureDetector.java[0m
+[ 83%] [34m[1mGenerating src/org/opencv/features2d/AgastFeatureDetector.java[0m
+[ 83%] [34m[1mGenerating src/org/opencv/features2d/BFMatcher.java[0m
+[ 84%] [34m[1mGenerating src/org/opencv/features2d/ORB.java[0m
+[ 84%] [34m[1mGenerating src/org/opencv/features2d/AKAZE.java[0m
+[ 84%] [34m[1mGenerating src/org/opencv/features2d/DescriptorMatcher.java[0m
+[ 84%] [34m[1mGenerating src/org/opencv/features2d/BRISK.java[0m
+[ 84%] [34m[1mGenerating src/org/opencv/features2d/BOWKMeansTrainer.java[0m
+[ 85%] [34m[1mGenerating src/org/opencv/features2d/BOWTrainer.java[0m
+[ 85%] [34m[1mGenerating src/org/opencv/features2d/FeatureDetector.java[0m
+[ 85%] [34m[1mGenerating src/org/opencv/features2d/BOWImgDescriptorExtractor.java[0m
+[ 85%] [34m[1mGenerating src/org/opencv/features2d/GFTTDetector.java[0m
+[ 85%] [34m[1mGenerating src/org/opencv/features2d/KAZE.java[0m
+[ 86%] [34m[1mGenerating src/org/opencv/features2d/Features2d.java[0m
+[ 86%] [34m[1mGenerating src/org/opencv/features2d/Feature2D.java[0m
+[ 86%] [34m[1mGenerating src/org/opencv/features2d/DescriptorExtractor.java[0m
+[ 86%] [34m[1mGenerating src/org/opencv/features2d/Params.java[0m
+[ 86%] [34m[1mGenerating src/org/opencv/features2d/FlannBasedMatcher.java[0m
+[ 86%] [34m[1mGenerating src/org/opencv/calib3d/Calib3d.java[0m
+[ 87%] [34m[1mGenerating src/org/opencv/calib3d/StereoSGBM.java[0m
+[ 87%] [34m[1mGenerating src/org/opencv/calib3d/StereoMatcher.java[0m
+[ 87%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.o[0m
+[ 87%] [34m[1mGenerating src/org/opencv/calib3d/StereoBM.java[0m
+[ 87%] [34m[1mGenerating src/org/opencv/xfeatures2d/PCTSignaturesSQFD.java[0m
+[ 87%] [34m[1mGenerating src/org/opencv/xfeatures2d/StarDetector.java[0m
+[ 88%] [34m[1mGenerating src/org/opencv/xfeatures2d/LATCH.java[0m
+[ 88%] [34m[1mGenerating src/org/opencv/xfeatures2d/MSDDetector.java[0m
+[ 88%] [34m[1mGenerating src/org/opencv/xfeatures2d/FREAK.java[0m
+[ 88%] [34m[1mGenerating src/org/opencv/xfeatures2d/SURF.java[0m
+[ 88%] [34m[1mGenerating src/org/opencv/xfeatures2d/LUCID.java[0m
+[ 89%] [34m[1mGenerating src/org/opencv/xfeatures2d/SIFT.java[0m
+[ 89%] [34m[1mGenerating src/org/opencv/xfeatures2d/DAISY.java[0m
+[ 89%] [34m[1mGenerating src/org/opencv/xfeatures2d/PCTSignatures.java[0m
+[ 89%] [34m[1mGenerating src/org/opencv/xfeatures2d/VGG.java[0m
+[ 89%] [34m[1mGenerating src/org/opencv/xfeatures2d/BriefDescriptorExtractor.java[0m
+[ 89%] [34m[1mGenerating src/org/opencv/xfeatures2d/BoostDesc.java[0m
+[ 90%] [34m[1mGenerating src/org/opencv/xfeatures2d/Xfeatures2d.java[0m
+[ 90%] [34m[1mGenerating src/org/opencv/phase_unwrapping/PhaseUnwrapping.java[0m
+[ 90%] [34m[1mGenerating src/org/opencv/phase_unwrapping/HistogramPhaseUnwrapping.java[0m
+[ 90%] [34m[1mGenerating src/org/opencv/phase_unwrapping/Phase_unwrapping.java[0m
+[ 90%] [34m[1mGenerating src/org/opencv/utils/Converters.java[0m
+[ 91%] [34m[1mGenerating src/org/opencv/core/Scalar.java[0m
+[ 91%] [34m[1mGenerating src/org/opencv/core/MatOfRect.java[0m
+[ 91%] [34m[1mGenerating src/org/opencv/core/MatOfFloat6.java[0m
+[ 91%] [34m[1mGenerating src/org/opencv/core/MatOfPoint3f.java[0m
+[ 91%] [34m[1mGenerating src/org/opencv/core/MatOfKeyPoint.java[0m
+[ 92%] [34m[1mGenerating src/org/opencv/core/KeyPoint.java[0m
+[ 92%] [34m[1mGenerating src/org/opencv/core/Point3.java[0m
+[ 92%] [34m[1mGenerating src/org/opencv/core/MatOfByte.java[0m
+[ 92%] [34m[1mGenerating src/org/opencv/core/MatOfPoint2f.java[0m
+[ 92%] [34m[1mGenerating src/org/opencv/core/Point.java[0m
+[ 92%] [34m[1mGenerating src/org/opencv/core/Range.java[0m
+[ 93%] [34m[1mGenerating src/org/opencv/core/CvType.java[0m
+[ 93%] [34m[1mGenerating src/org/opencv/core/MatOfInt4.java[0m
+[ 93%] [34m[1mGenerating src/org/opencv/core/Rect.java[0m
+[ 93%] [34m[1mGenerating src/org/opencv/core/CvException.java[0m
+[ 93%] [34m[1mGenerating src/org/opencv/core/Mat.java[0m
+[ 94%] [34m[1mGenerating src/org/opencv/core/MatOfInt.java[0m
+[ 94%] [34m[1mGenerating src/org/opencv/core/Size.java[0m
+[ 94%] [34m[1mGenerating src/org/opencv/core/MatOfPoint.java[0m
+[ 94%] [34m[1mGenerating src/org/opencv/core/TermCriteria.java[0m
+[ 94%] [34m[1mGenerating src/org/opencv/core/MatOfFloat4.java[0m
+[ 95%] [34m[1mGenerating src/org/opencv/core/DMatch.java[0m
+[ 95%] [34m[1mGenerating src/org/opencv/core/MatOfPoint3.java[0m
+[ 95%] [34m[1mGenerating src/org/opencv/core/MatOfDouble.java[0m
+[ 95%] [34m[1mGenerating src/org/opencv/core/MatOfFloat.java[0m
+[ 95%] [34m[1mGenerating src/org/opencv/core/RotatedRect.java[0m
+[ 95%] [34m[1mGenerating src/org/opencv/core/MatOfDMatch.java[0m
+[ 96%] [34m[1mGenerating src/org/opencv/imgproc/Moments.java[0m
+[ 96%] [34m[1mGenerating opencv-320.jar[0m
+[ 96%] [32m[1mLinking CXX shared library ../../lib/libopencv_stitching.so[0m
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[35m[1mScanning dependencies of target opencv_java[0m
+[ 96%] Built target opencv_stitching
+[ 97%] [34m[1mGenerating pyopencv_generated_include.h, pyopencv_generated_funcs.h, pyopencv_generated_types.h, pyopencv_generated_type_reg.h, pyopencv_generated_ns_reg.h[0m
+[ 97%] [32mBuilding CXX object modules/java/CMakeFiles/opencv_java.dir/gen/core.cpp.o[0m
+[ 98%] [32mBuilding CXX object modules/java/CMakeFiles/opencv_java.dir/generator/src/cpp/utils.cpp.o[0m
+[ 98%] [32mBuilding CXX object modules/java/CMakeFiles/opencv_java.dir/generator/src/cpp/converters.cpp.o[0m
+[ 97%] [32mBuilding CXX object modules/java/CMakeFiles/opencv_java.dir/__/core/misc/java/src/cpp/core_manual.cpp.o[0m
+[ 97%] [32mBuilding CXX object modules/java/CMakeFiles/opencv_java.dir/generator/src/cpp/Mat.cpp.o[0m
+[ 98%] [32mBuilding CXX object modules/java/CMakeFiles/opencv_java.dir/__/features2d/misc/java/src/cpp/features2d_converters.cpp.o[0m
+[ 98%] [32mBuilding CXX object modules/java/CMakeFiles/opencv_java.dir/generator/src/cpp/jni_part.cpp.o[0m
+[ 98%] [32mBuilding CXX object modules/java/CMakeFiles/opencv_java.dir/gen/imgproc.cpp.o[0m
+[35m[1mScanning dependencies of target opencv_python2[0m
+[ 99%] [32mBuilding CXX object modules/java/CMakeFiles/opencv_java.dir/gen/ml.cpp.o[0m
+[ 99%] [32mBuilding CXX object modules/java/CMakeFiles/opencv_java.dir/gen/photo.cpp.o[0m
+[ 99%] [32mBuilding CXX object modules/python2/CMakeFiles/opencv_python2.dir/__/src2/cv2.cpp.o[0m
+[ 99%] [32mBuilding CXX object modules/java/CMakeFiles/opencv_java.dir/gen/video.cpp.o[0m
+[ 99%] [32mBuilding CXX object modules/java/CMakeFiles/opencv_java.dir/gen/imgcodecs.cpp.o[0m
+[ 99%] [32mBuilding CXX object modules/java/CMakeFiles/opencv_java.dir/gen/videoio.cpp.o[0m
+[ 99%] [32mBuilding CXX object modules/java/CMakeFiles/opencv_java.dir/gen/objdetect.cpp.o[0m
+[100%] [32mBuilding CXX object modules/java/CMakeFiles/opencv_java.dir/gen/features2d.cpp.o[0m
+[100%] [32mBuilding CXX object modules/java/CMakeFiles/opencv_java.dir/gen/calib3d.cpp.o[0m
+[100%] [32mBuilding CXX object modules/java/CMakeFiles/opencv_java.dir/gen/xfeatures2d.cpp.o[0m
+[100%] [32mBuilding CXX object modules/java/CMakeFiles/opencv_java.dir/gen/phase_unwrapping.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library ../../lib/libopencv_java320.so[0m
+[100%] Built target opencv_java
+[100%] [32m[1mLinking CXX shared module ../../lib/cv2.so[0m
+[100%] Built target opencv_python2
+[ 83%] [34m[1mPerforming install step for 'opencv3_src'[0m
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+[ 10%] Built target opencv_core
+[ 10%] Built target opencv_flann
+[ 13%] Built target opencv_ml
+[ 16%] Built target opencv_viz
+[ 27%] Built target opencv_imgproc
+[ 30%] Built target opencv_photo
+[ 32%] Built target opencv_video
+[ 35%] Built target opencv_imgcodecs
+[ 37%] Built target opencv_shape
+[ 39%] Built target opencv_videoio
+[ 42%] Built target opencv_highgui
+[ 42%] Built target opencv_superres
+[ 42%] Built target opencv_version
+[ 42%] Built target opencv_visualisation
+[ 42%] Built target opencv_annotation
+[ 44%] Built target opencv_objdetect
+[ 49%] Built target opencv_features2d
+[ 51%] Built target opencv_saliency
+[ 56%] Built target opencv_calib3d
+[ 57%] Built target opencv_createsamples
+[ 60%] Built target opencv_traincascade
+[ 62%] Built target opencv_rgbd
+[ 64%] Built target opencv_videostab
+[ 64%] Built target opencv_phase_unwrapping
+[ 69%] Built target opencv_xfeatures2d
+[ 71%] Built target opencv_stitching
+[ 72%] Built target opencv_python2
+[100%] Built target opencv_java
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/cvconfig.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/opencv_modules.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/pkgconfig/opencv.pc
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/OpenCVModules.cmake
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/OpenCVModules-release.cmake
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/OpenCVConfig-version.cmake
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/OpenCVConfig.cmake
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv/cxcore.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv/cxcore.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv/cvaux.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv/highgui.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv/cvaux.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv/cv.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv/cxmisc.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv/ml.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv/cxeigen.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv/cv.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv/cvwimage.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/opencv.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_core.so.3.2.0
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_core.so.3.2
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_core.so.3.2.0" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_core.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/datamov_utils.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/limits.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/type_traits.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/vec_traits.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/color.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/functional.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/warp_reduce.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/filters.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/scan.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/transform.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/saturate_cast.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/vec_math.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/reduce.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/warp_shuffle.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/funcattrib.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/utility.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/warp.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/vec_distance.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/emulation.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/dynamic_smem.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/simd_functions.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/block.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/border_interpolate.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/common.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/detail/transform_detail.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/detail/color_detail.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/detail/reduce.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/detail/type_traits_detail.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/detail/reduce_key_val.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda/detail/vec_distance_detail.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/persistence.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/affine.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/va_intel.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/operations.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/core.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/wimage.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/bufferpool.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/mat.inl.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/mat.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/opengl.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/base.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cvstd.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/saturate.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/utility.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/optim.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/traits.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/neon_utils.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cvstd.inl.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/ippasync.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/version.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/fast_math.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/ocl.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/types.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/ovx.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/private.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/sse_utils.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/ocl_genbase.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/eigen.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/directx.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/ptr.inl.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/private.cuda.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda_stream_accessor.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda_types.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/matx.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cuda.inl.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/core_c.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/cvdef.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/types_c.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/hal/intrin.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/hal/intrin_sse.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/hal/hal.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/hal/intrin_cpp.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/hal/intrin_neon.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/core/hal/interface.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_flann.so.3.2.0
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_flann.so.3.2
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_flann.so.3.2.0" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_flann.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/flann_base.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/flann.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/miniflann.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/logger.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/ground_truth.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/kdtree_single_index.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/object_factory.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/config.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/timer.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/defines.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/simplex_downhill.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/dynamic_bitset.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/dummy.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/params.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/dist.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/random.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/hdf5.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/kmeans_index.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/lsh_table.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/kdtree_index.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/nn_index.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/result_set.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/heap.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/index_testing.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/composite_index.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/general.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/hierarchical_clustering_index.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/allocator.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/saving.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/any.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/linear_index.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/all_indices.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/autotuned_index.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/sampling.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/matrix.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/flann/lsh_index.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_imgproc.so.3.2.0
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_imgproc.so.3.2
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_imgproc.so.3.2.0" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_imgproc.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/imgproc.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/imgproc/imgproc.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/imgproc/imgproc_c.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/imgproc/types_c.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/imgproc/hal/hal.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/imgproc/hal/interface.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/imgproc/detail/distortion_model.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_ml.so.3.2.0
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_ml.so.3.2
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_ml.so.3.2.0" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_ml.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/ml.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/ml/ml.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_photo.so.3.2.0
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_photo.so.3.2
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_photo.so.3.2.0" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_photo.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/photo.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/photo/cuda.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/photo/photo.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/photo/photo_c.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_video.so.3.2.0
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_video.so.3.2
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_video.so.3.2.0" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_video.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/video.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/video/background_segm.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/video/video.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/video/tracking.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/video/tracking_c.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_viz.so.3.2.0
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_viz.so.3.2
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_viz.so.3.2.0" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_viz.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/viz.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/viz/viz3d.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/viz/widget_accessor.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/viz/vizcore.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/viz/types.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/viz/widgets.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_imgcodecs.so.3.2.0
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_imgcodecs.so.3.2
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_imgcodecs.so.3.2.0" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_imgcodecs.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/imgcodecs.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/imgcodecs/imgcodecs.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/imgcodecs/ios.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/imgcodecs/imgcodecs_c.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_shape.so.3.2.0
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_shape.so.3.2
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_shape.so.3.2.0" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_shape.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/shape.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/shape/emdL1.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/shape/shape_transformer.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/shape/shape_distance.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/shape/hist_cost.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/shape/shape.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_videoio.so.3.2.0
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_videoio.so.3.2
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_videoio.so.3.2.0" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_videoio.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/videoio.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/videoio/videoio.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/videoio/videoio_c.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/videoio/cap_ios.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_highgui.so.3.2.0
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_highgui.so.3.2
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_highgui.so.3.2.0" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_highgui.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/highgui.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/highgui/highgui.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/highgui/highgui_c.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_objdetect.so.3.2.0
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_objdetect.so.3.2
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_objdetect.so.3.2.0" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_objdetect.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/objdetect.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/objdetect/detection_based_tracker.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/objdetect/objdetect.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/objdetect/objdetect_c.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_superres.so.3.2.0
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_superres.so.3.2
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_superres.so.3.2.0" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_superres.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/superres.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/superres/optical_flow.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_features2d.so.3.2.0
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_features2d.so.3.2
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_features2d.so.3.2.0" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_features2d.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/features2d.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/features2d/features2d.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_saliency.so.3.2.0
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_saliency.so.3.2
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_saliency.so.3.2.0" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_saliency.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/saliency.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/saliency/saliencySpecializedClasses.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/saliency/saliencyBaseClasses.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_calib3d.so.3.2.0
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_calib3d.so.3.2
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_calib3d.so.3.2.0" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_calib3d.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/calib3d.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/calib3d/calib3d.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/calib3d/calib3d_c.h
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_rgbd.so.3.2.0
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_rgbd.so.3.2
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_rgbd.so.3.2.0" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_rgbd.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/rgbd.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/rgbd/linemod.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_videostab.so.3.2.0
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_videostab.so.3.2
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_videostab.so.3.2.0" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_videostab.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/videostab.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/videostab/deblurring.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/videostab/wobble_suppression.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/videostab/inpainting.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/videostab/motion_stabilizing.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/videostab/log.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/videostab/global_motion.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/videostab/fast_marching_inl.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/videostab/stabilizer.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/videostab/fast_marching.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/videostab/outlier_rejection.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/videostab/ring_buffer.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/videostab/optical_flow.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/videostab/motion_core.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/videostab/frame_source.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_xfeatures2d.so.3.2.0
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_xfeatures2d.so.3.2
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_xfeatures2d.so.3.2.0" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_xfeatures2d.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/xfeatures2d.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/xfeatures2d/cuda.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/xfeatures2d/nonfree.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_phase_unwrapping.so.3.2.0
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_phase_unwrapping.so.3.2
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_phase_unwrapping.so.3.2.0" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_phase_unwrapping.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/phase_unwrapping.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/phase_unwrapping/histogramphaseunwrapping.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/phase_unwrapping/phase_unwrapping.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_stitching.so.3.2.0
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_stitching.so.3.2
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_stitching.so.3.2.0" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv_stitching.so
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/stitching.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/stitching/warpers.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/stitching/detail/warpers.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/stitching/detail/seam_finders.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/stitching/detail/util_inl.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/stitching/detail/camera.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/stitching/detail/util.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/stitching/detail/blenders.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/stitching/detail/autocalib.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/stitching/detail/exposure_compensate.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/stitching/detail/matchers.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/stitching/detail/motion_estimators.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/stitching/detail/warpers_inl.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/include/opencv2/stitching/detail/timelapsers.hpp
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/java/opencv-320.jar
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/java/libopencv_java320.so
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/java/libopencv_java320.so" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/python2.7/dist-packages/cv2.so
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/python2.7/dist-packages/cv2.so" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/haarcascades/haarcascade_eye.xml
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/haarcascades/haarcascade_lefteye_2splits.xml
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/haarcascades/haarcascade_frontalface_alt_tree.xml
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/haarcascades/haarcascade_eye_tree_eyeglasses.xml
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/haarcascades/haarcascade_frontalcatface.xml
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/haarcascades/haarcascade_smile.xml
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/haarcascades/haarcascade_russian_plate_number.xml
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/haarcascades/haarcascade_profileface.xml
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/haarcascades/haarcascade_upperbody.xml
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/haarcascades/haarcascade_righteye_2splits.xml
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/haarcascades/haarcascade_frontalface_default.xml
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/haarcascades/haarcascade_fullbody.xml
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/haarcascades/haarcascade_lowerbody.xml
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/haarcascades/haarcascade_licence_plate_rus_16stages.xml
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/haarcascades/haarcascade_frontalface_alt2.xml
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/haarcascades/haarcascade_frontalface_alt.xml
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/haarcascades/haarcascade_frontalcatface_extended.xml
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/lbpcascades/lbpcascade_profileface.xml
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/lbpcascades/lbpcascade_silverware.xml
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/lbpcascades/lbpcascade_frontalcatface.xml
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/share/OpenCV/lbpcascades/lbpcascade_frontalface.xml
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/bin/opencv_traincascade
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/bin/opencv_traincascade" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/bin/opencv_createsamples
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/bin/opencv_createsamples" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/bin/opencv_annotation
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/bin/opencv_annotation" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/bin/opencv_visualisation
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/bin/opencv_visualisation" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+-- Installing: /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/bin/opencv_version
+-- Set runtime path of "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/bin/opencv_version" to "/home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib"
+[ 88%] [34m[1mCompleted 'opencv3_src'[0m
+[ 88%] Built target opencv3_src
+[35m[1mScanning dependencies of target opencv3_catkin[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/opencv3_catkin.dir/src/dependency_tracker.cc.o[0m
+[100%] [32m[1mLinking CXX shared library /home/mataiyuan/ASD-SLAM/devel/.private/opencv3_catkin/lib/libopencv3_catkin.so[0m
+[100%] Built target opencv3_catkin

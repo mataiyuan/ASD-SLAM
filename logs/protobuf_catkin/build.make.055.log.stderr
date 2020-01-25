@@ -1,0 +1,28 @@
++ mkdir -p third_party/googletest/m4
++ autoreconf -f -i -Wall,no-obsolete
+configure.ac:76: installing './ar-lib'
+configure.ac:71: installing './compile'
+configure.ac:46: installing './config.guess'
+configure.ac:46: installing './config.sub'
+configure.ac:48: installing './install-sh'
+configure.ac:48: installing './missing'
+benchmarks/Makefile.am: installing './depcomp'
+parallel-tests: installing './test-driver'
++ rm -rf autom4te.cache config.h.in~
++ exit 0
+configure: WARNING: no configuration information is in third_party/googletest
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+[01m[Kgoogle/protobuf/compiler/cpp/cpp_helpers.cc:63:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::__cxx11::string google::protobuf::compiler::cpp::{anonymous}::DotsToUnderscores(const string&)[m[K’ defined but not used [-Wunused-function]
+ string DotsToUnderscores(const string& name) {
+[01;32m[K        ^[m[K
+[01m[Kgoogle/protobuf/compiler/cpp/cpp_message_field.cc:54:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::__cxx11::string google::protobuf::compiler::cpp::{anonymous}::StaticCast(const string&, const string&, bool)[m[K’ defined but not used [-Wunused-function]
+ string StaticCast(const string& type, const string& expression,
+[01;32m[K        ^[m[K
+[01m[Kgoogle/protobuf/compiler/python/python_generator.cc:78:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool google::protobuf::compiler::python::{anonymous}::StrStartsWith(google::protobuf::StringPiece, google::protobuf::StringPiece)[m[K’ defined but not used [-Wunused-function]
+ bool StrStartsWith(StringPiece sp, StringPiece x) {
+[01;32m[K      ^[m[K
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+libtool: [31mwarning(B[m: [1mrelinking 'libprotoc.la'(B[m

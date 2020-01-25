@@ -1,0 +1,4 @@
+Symlinking /home/mataiyuan/ASD-SLAM/devel/share/g2o_catkin/cmake/g2o_catkinConfig.cmake
+Symlinking /home/mataiyuan/ASD-SLAM/devel/share/g2o_catkin/cmake/g2o_catkinConfig-version.cmake
+Symlinking /home/mataiyuan/ASD-SLAM/devel/lib/libg2o_catkin.so
+Symlinking /home/mataiyuan/ASD-SLAM/devel/lib/pkgconfig/g2o_catkin.pc

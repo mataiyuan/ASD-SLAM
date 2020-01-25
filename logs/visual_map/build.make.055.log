@@ -1,0 +1,7 @@
+[35m[1mScanning dependencies of target visual_map[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/visual_map.dir/src/frame.cc.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/visual_map.dir/src/map_point.cc.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/visual_map.dir/src/visual_map_seri.cc.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/visual_map.dir/src/visual_map.cc.o[0m
+[100%] [32m[1mLinking CXX shared library /home/mataiyuan/ASD-SLAM/devel/.private/visual_map/lib/libvisual_map.so[0m
+[100%] Built target visual_map

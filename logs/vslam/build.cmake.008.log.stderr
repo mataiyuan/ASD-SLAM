@@ -1,0 +1,23 @@
+[31m[1mCMake Error[0m at /home/mataiyuan/ASD-SLAM/src/vslam/cmake_modules/Caffe2/Caffe2Targets.cmake:90 (message):
+  The imported target "c10_cuda" references the file
+
+     "/home/mataiyuan/ASD-SLAM/src/lib/libc10_cuda.so"
+
+  but this file does not exist.  Possible reasons include:
+
+  * The file was deleted, renamed, or moved to another location.
+
+  * An install or uninstall procedure did not complete successfully.
+
+  * The installation package was faulty and contained
+
+     "/home/mataiyuan/ASD-SLAM/src/vslam/cmake_modules/Caffe2/Caffe2Targets.cmake"
+
+  but not all the files it references.
+
+[36mCall Stack (most recent call first):[0m
+  cmake_modules/Caffe2/Caffe2Config.cmake:116 (include)
+  cmake_modules/TorchConfig.cmake:40 (find_package)
+  CMakeLists.txt:28 (find_package)
+
+

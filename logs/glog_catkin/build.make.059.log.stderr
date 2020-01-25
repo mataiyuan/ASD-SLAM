@@ -1,0 +1,12 @@
+/home/mataiyuan/ASD-SLAM/build/glog_catkin/glog_src-prefix/src/glog_src/missing: Unknown `--is-lightweight' option
+Try `/home/mataiyuan/ASD-SLAM/build/glog_catkin/glog_src-prefix/src/glog_src/missing --help' for more information
+configure: WARNING: 'missing' script is too old or missing
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+In file included from [01m[K/usr/include/c++/5/ext/hash_set:60:0[m[K,
+                 from [01m[Ksrc/glog/stl_logging.h:73[m[K,
+                 from [01m[Ksrc/stl_logging_unittest.cc:62[m[K:
+[01m[K/usr/include/c++/5/backward/backward_warning.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+ #warning \
+[01;32m[K  ^[m[K
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[3]: warning: -jN forced in submake: disabling jobserver mode.

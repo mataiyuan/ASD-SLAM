@@ -1,0 +1,5 @@
+CMake Error: Error in cmake code at
+/home/mataiyuan/ASD-SLAM/src/vslam/CMakeLists.txt:30:
+Parse error.  Expected "(", got newline with text "
+".
+make: *** [cmake_check_build_system] Error 1

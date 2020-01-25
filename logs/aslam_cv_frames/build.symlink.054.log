@@ -1,0 +1,4 @@
+Symlinking /home/mataiyuan/ASD-SLAM/devel/share/aslam_cv_frames/cmake/aslam_cv_framesConfig-version.cmake
+Symlinking /home/mataiyuan/ASD-SLAM/devel/share/aslam_cv_frames/cmake/aslam_cv_framesConfig.cmake
+Symlinking /home/mataiyuan/ASD-SLAM/devel/lib/libaslam_cv_frames.so
+Symlinking /home/mataiyuan/ASD-SLAM/devel/lib/pkgconfig/aslam_cv_frames.pc

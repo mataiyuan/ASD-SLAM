@@ -1,0 +1,4 @@
+3rd_party/minkindr/minkindr
+/home/mataiyuan/ASD-SLAM/devel/.private/minkindr/share/minkindr/cmake/minkindrConfig.cmake /home/mataiyuan/ASD-SLAM/devel/share/minkindr/cmake/minkindrConfig.cmake
+/home/mataiyuan/ASD-SLAM/devel/.private/minkindr/share/minkindr/cmake/minkindrConfig-version.cmake /home/mataiyuan/ASD-SLAM/devel/share/minkindr/cmake/minkindrConfig-version.cmake
+/home/mataiyuan/ASD-SLAM/devel/.private/minkindr/lib/pkgconfig/minkindr.pc /home/mataiyuan/ASD-SLAM/devel/lib/pkgconfig/minkindr.pc

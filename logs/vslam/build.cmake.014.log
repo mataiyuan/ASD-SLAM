@@ -1,0 +1,71 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The C compiler identification is GNU 5.4.0
+[36m--[0m The CXX compiler identification is GNU 5.4.0
+[36m--[0m Check for working C compiler: /usr/bin/cc
+[36m--[0m Check for working C compiler: /usr/bin/cc -- works
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Check for working CXX compiler: /usr/bin/c++
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/mataiyuan/ASD-SLAM/devel/.private/vslam
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/mataiyuan/ASD-SLAM/devel;/home/mataiyuan/catkin_ws/devel;/opt/ros/kinetic
+[36m--[0m This workspace overlays: /home/mataiyuan/ASD-SLAM/devel;/home/mataiyuan/catkin_ws/devel;/opt/ros/kinetic
+[36m--[0m Found PythonInterp: /usr/bin/python (found version "2.7.12")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/mataiyuan/ASD-SLAM/build/vslam/test_results
+[36m--[0m Found gmock sources under '/usr/src/gmock': gmock will be built
+[36m--[0m Looking for pthread.h
+[36m--[0m Looking for pthread.h - found
+[36m--[0m Looking for pthread_create
+[36m--[0m Looking for pthread_create - not found
+[36m--[0m Looking for pthread_create in pthreads
+[36m--[0m Looking for pthread_create in pthreads - not found
+[36m--[0m Looking for pthread_create in pthread
+[36m--[0m Looking for pthread_create in pthread - found
+[36m--[0m Found Threads: TRUE
+[36m--[0m Found gtest sources under '/usr/src/gmock': gtests will be built
+[36m--[0m Using Python nosetests: /usr/bin/nosetests-2.7
+[36m--[0m catkin 0.7.11
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[36m--[0m Timers enabled? FALSE
+[36m--[0m Statistics enabled? FALSE
+[36m--[0m Found CUDA: /usr/local/cuda (found version "9.0")
+[36m--[0m Caffe2: CUDA detected: 9.0
+[36m--[0m Caffe2: CUDA nvcc is: /usr/local/cuda/bin/nvcc
+[36m--[0m Caffe2: CUDA toolkit directory: /usr/local/cuda
+[36m--[0m Caffe2: Header version is: 9.0
+[36m--[0m Found CUDNN: /usr/local/cuda/lib64/libcudnn.so
+[36m--[0m Found cuDNN: v7.0.5  (include: /usr/local/cuda/include, library: /usr/local/cuda/lib64/libcudnn.so)
+[36m--[0m Autodetected CUDA architecture(s):  6.1
+[36m--[0m Added CUDA NVCC flags for: -gencode;arch=compute_61,code=sm_61
+[36m--[0m Found torch: /home/mataiyuan/Ku/pytorch/torch/lib/libtorch.so
+[36m--[0m Marking SHARED_LIBRARY "vslam" of package "vslam" for installation
+[36m--[0m Marking EXECUTABLE "euroc" of package "vslam" for installation
+[36m--[0m Marking EXECUTABLE "kitti" of package "vslam" for installation
+[36m--[0m Marking HEADER FILES in "include" folder of package "vslam" for installation
+[36m--[0m Configuring done
+[31m[1mCMake Error[0m at /home/mataiyuan/ASD-SLAM/devel/share/catkin_simple/cmake/catkin_simple-extras.cmake:150 (add_library):
+  Cannot find source file:
+
+    src/ORBextractor.cc
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:9 (cs_add_library)
+
+
+CMake Error: CMake can not determine linker language for target: vslam
+CMake Error: Cannot determine link language for target "vslam".
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/mataiyuan/ASD-SLAM/build/vslam

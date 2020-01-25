@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target eigen_checks[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/eigen_checks.dir/src/eigen-checks.cc.o[0m
+[100%] [32m[1mLinking CXX shared library /home/mataiyuan/ASD-SLAM/devel/.private/eigen_checks/lib/libeigen_checks.so[0m
+[100%] Built target eigen_checks

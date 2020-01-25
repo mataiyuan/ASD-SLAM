@@ -1,0 +1,33 @@
+[35m[1mScanning dependencies of target g2o_catkin[0m
+[  3%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/types/types_sba.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/types/types_six_dof_expmap.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/types/types_seven_dof_expmap.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/core/hyper_graph_action.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/core/hyper_graph.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/core/marginal_covariance_cholesky.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/core/matrix_structure.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/core/batch_stats.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/core/parameter.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/core/cache.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/core/optimizable_graph.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/core/solver.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/core/optimization_algorithm_factory.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/core/estimate_propagator.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/core/factory.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/core/sparse_optimizer.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/core/hyper_dijkstra.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/core/parameter_container.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/core/optimization_algorithm.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/core/optimization_algorithm_with_hessian.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/core/optimization_algorithm_levenberg.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/core/jacobian_workspace.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/core/robust_kernel.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/core/robust_kernel_factory.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/core/robust_kernel_impl.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/stuff/timeutil.cpp.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/g2o_catkin.dir/src/stuff/os_specific.c.o[0m
+[01m[Kcc1:[m[K [01;35m[Kwarning: [m[Kcommand line option ‘[01m[K-std=c++11[m[K’ is valid for C++/ObjC++ but not for C
+[ 93%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/stuff/string_tools.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/g2o_catkin.dir/src/stuff/property.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/mataiyuan/ASD-SLAM/devel/.private/g2o_catkin/lib/libg2o_catkin.so[0m
+[100%] Built target g2o_catkin

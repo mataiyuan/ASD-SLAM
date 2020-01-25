@@ -1,0 +1,4 @@
+Symlinking /home/mataiyuan/ASD-SLAM/devel/share/visual_map/cmake/visual_mapConfig.cmake
+Symlinking /home/mataiyuan/ASD-SLAM/devel/share/visual_map/cmake/visual_mapConfig-version.cmake
+Symlinking /home/mataiyuan/ASD-SLAM/devel/lib/libvisual_map.so
+Symlinking /home/mataiyuan/ASD-SLAM/devel/lib/pkgconfig/visual_map.pc

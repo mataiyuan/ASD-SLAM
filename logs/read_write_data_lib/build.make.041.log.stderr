@@ -1,0 +1,18 @@
+[01m[K/home/mataiyuan/ASD-SLAM/src/read_write_data_lib/src/read_write.cpp:[m[K In function ‘[01m[Kvoid CHAMO::read_traj_file(std::__cxx11::string, std::vector<Eigen::Matrix<double, 4, 4> >&, std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/home/mataiyuan/ASD-SLAM/src/read_write_data_lib/src/read_write.cpp:104:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kframe_id[m[K’ [-Wunused-variable]
+             int frame_id=atoi(splited[1].c_str());
+[01;32m[K                 ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/src/read_write_data_lib/src/read_write.cpp:[m[K In function ‘[01m[Kvoid CHAMO::read_imu_data(std::__cxx11::string, std::vector<Eigen::Matrix<double, 7, 1> >&)[m[K’:
+[01m[K/home/mataiyuan/ASD-SLAM/src/read_write_data_lib/src/read_write.cpp:211:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kimu_count[m[K’ [-Wunused-variable]
+         int imu_count=0;
+[01;32m[K             ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/src/read_write_data_lib/src/read_write.cpp:213:25:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kbg[m[K’ set but not used [-Wunused-but-set-variable]
+         Eigen::Vector3d bg=Eigen::Vector3d::Zero();
+[01;32m[K                         ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/src/read_write_data_lib/src/read_write.cpp:214:25:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kba[m[K’ set but not used [-Wunused-but-set-variable]
+         Eigen::Vector3d ba=Eigen::Vector3d::Zero();
+[01;32m[K                         ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/src/read_write_data_lib/src/read_write.cpp:[m[K In function ‘[01m[Kvoid CHAMO::read_desc_eigen(std::__cxx11::string, std::vector<Eigen::Matrix<unsigned char, -1, -1> >&)[m[K’:
+[01m[K/home/mataiyuan/ASD-SLAM/src/read_write_data_lib/src/read_write.cpp:369:27:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+             for(int i=0; i<splited.size(); i++){
+[01;32m[K                           ^[m[K

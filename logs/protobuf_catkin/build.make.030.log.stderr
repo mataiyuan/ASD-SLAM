@@ -1,0 +1,21 @@
+CMake Error at protobuf_src-stamp/download-protobuf_src.cmake:21 (message):
+  error: downloading
+  'https://github.com/protocolbuffers/protobuf/archive/v3.6.1.tar.gz' failed
+
+    status_code: 7
+    status_string: "Couldn't connect to server"
+    log:   Trying 13.229.188.59...
+
+  connect to 13.229.188.59 port 443 failed: Connection timed out
+
+  Failed to connect to github.com port 443: Connection timed out
+
+  Closing connection 0
+
+  
+
+
+
+make[2]: *** [protobuf_src-prefix/src/protobuf_src-stamp/protobuf_src-download] Error 1
+make[1]: *** [CMakeFiles/protobuf_src.dir/all] Error 2
+make: *** [all] Error 2

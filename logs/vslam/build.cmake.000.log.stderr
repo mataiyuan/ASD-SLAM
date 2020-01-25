@@ -1,0 +1,19 @@
+[31m[1mCMake Error[0m at /home/mataiyuan/ASD-SLAM/devel/share/catkin_simple/cmake/catkin_simple-extras.cmake:38 (find_package):
+  By not providing "Findg2o_catkin.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "g2o_catkin", but CMake did not find one.
+
+  Could not find a package configuration file provided by "g2o_catkin" with
+  any of the following names:
+
+    g2o_catkinConfig.cmake
+    g2o_catkin-config.cmake
+
+  Add the installation prefix of "g2o_catkin" to CMAKE_PREFIX_PATH or set
+  "g2o_catkin_DIR" to a directory containing one of the above files.  If
+  "g2o_catkin" provides a separate development package or SDK, be sure it has
+  been installed.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:5 (catkin_simple)
+
+

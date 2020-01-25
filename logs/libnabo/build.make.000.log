@@ -1,0 +1,122 @@
+[35m[1mScanning dependencies of target doxygen[0m
+[  5%] [34m[1mWriting documentation to /home/mataiyuan/ASD-SLAM/build/libnabo/doc...[0m
+warning: Tag `SYMBOL_CACHE_SIZE' at line 289 of file `/home/mataiyuan/ASD-SLAM/build/libnabo/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag `SHOW_DIRECTORIES' at line 473 of file `/home/mataiyuan/ASD-SLAM/build/libnabo/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag `HTML_ALIGN_MEMBERS' at line 799 of file `/home/mataiyuan/ASD-SLAM/build/libnabo/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag `XML_SCHEMA' at line 1136 of file `/home/mataiyuan/ASD-SLAM/build/libnabo/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag `XML_DTD' at line 1142 of file `/home/mataiyuan/ASD-SLAM/build/libnabo/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: doxygen no longer ships with the FreeSans font.
+You may want to clear or change DOT_FONTNAME.
+Otherwise you run the risk that the wrong font is being used for dot generated graphs.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo.h:200: warning: multiple use of section label 'ANN' while adding anchor, (first occurrence: /home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo.h, line 171)
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo.cpp:50: warning: Compound Nabo::runtime_error is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/third_party/any.hpp:36: warning: Compound linb::any is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/third_party/any.hpp:27: warning: Compound linb::bad_any_cast is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo.h:219: warning: Member invalidIndex() (function) of namespace Nabo is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo.h:224: warning: Member invalidValue() (function) of namespace Nabo is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo.h:219: warning: Member invalidIndex() (function) of namespace Nabo is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo.h:224: warning: Member invalidValue() (function) of namespace Nabo is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/third_party/any.hpp:29: warning: Member what() const noexceptoverride (function) of class linb::bad_any_cast is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo.h:219: warning: Member invalidIndex() (function) of namespace Nabo is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo.h:224: warning: Member invalidValue() (function) of namespace Nabo is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:78: warning: Member Vector (typedef) of class Nabo::BruteForceSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:79: warning: Member Matrix (typedef) of class Nabo::BruteForceSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:80: warning: Member Index (typedef) of class Nabo::BruteForceSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:81: warning: Member IndexVector (typedef) of class Nabo::BruteForceSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:82: warning: Member IndexMatrix (typedef) of class Nabo::BruteForceSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:92: warning: Member knn(const Matrix &query, IndexMatrix &indices, Matrix &dists2, const Index k, const T epsilon, const unsigned optionFlags, const T maxRadius) const  (function) of class Nabo::BruteForceSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:93: warning: Member knn(const Matrix &query, IndexMatrix &indices, Matrix &dists2, const Vector &maxRadii, const Index k=1, const T epsilon=0, const unsigned optionFlags=0) const  (function) of class Nabo::BruteForceSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:264: warning: Member Vector (typedef) of class Nabo::BruteForceSearchOpenCL is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:265: warning: Member Matrix (typedef) of class Nabo::BruteForceSearchOpenCL is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:266: warning: Member Index (typedef) of class Nabo::BruteForceSearchOpenCL is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:228: warning: Member Vector (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:229: warning: Member Matrix (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:230: warning: Member Index (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:231: warning: Member IndexVector (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:232: warning: Member IndexMatrix (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:257: warning: Member knn(const Matrix &query, IndexMatrix &indices, Matrix &dists2, const Vector &maxRadii, const Index k=1, const T epsilon=0, const unsigned optionFlags=0) const  (function) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:278: warning: Member Vector (typedef) of class Nabo::KDTreeBalancedPtInLeavesStackOpenCL is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:279: warning: Member Matrix (typedef) of class Nabo::KDTreeBalancedPtInLeavesStackOpenCL is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:280: warning: Member Index (typedef) of class Nabo::KDTreeBalancedPtInLeavesStackOpenCL is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:281: warning: Member IndexVector (typedef) of class Nabo::KDTreeBalancedPtInLeavesStackOpenCL is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:282: warning: Member IndexMatrix (typedef) of class Nabo::KDTreeBalancedPtInLeavesStackOpenCL is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:228: warning: Member Vector (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:229: warning: Member Matrix (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:230: warning: Member Index (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:231: warning: Member IndexVector (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:232: warning: Member IndexMatrix (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:257: warning: Member knn(const Matrix &query, IndexMatrix &indices, Matrix &dists2, const Vector &maxRadii, const Index k=1, const T epsilon=0, const unsigned optionFlags=0) const  (function) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:354: warning: Member Vector (typedef) of class Nabo::KDTreeBalancedPtInNodesStackOpenCL is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:355: warning: Member Matrix (typedef) of class Nabo::KDTreeBalancedPtInNodesStackOpenCL is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:356: warning: Member Index (typedef) of class Nabo::KDTreeBalancedPtInNodesStackOpenCL is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:357: warning: Member IndexVector (typedef) of class Nabo::KDTreeBalancedPtInNodesStackOpenCL is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:358: warning: Member IndexMatrix (typedef) of class Nabo::KDTreeBalancedPtInNodesStackOpenCL is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:228: warning: Member Vector (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:229: warning: Member Matrix (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:230: warning: Member Index (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:231: warning: Member IndexVector (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:232: warning: Member IndexMatrix (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:257: warning: Member knn(const Matrix &query, IndexMatrix &indices, Matrix &dists2, const Vector &maxRadii, const Index k=1, const T epsilon=0, const unsigned optionFlags=0) const  (function) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:100: warning: Member Vector (typedef) of class Nabo::KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:101: warning: Member Matrix (typedef) of class Nabo::KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:102: warning: Member Index (typedef) of class Nabo::KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:103: warning: Member IndexVector (typedef) of class Nabo::KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:104: warning: Member IndexMatrix (typedef) of class Nabo::KDTreeUnbalancedPtInLeavesImplicitBoundsStackOpt is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:228: warning: Member Vector (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:229: warning: Member Matrix (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:230: warning: Member Index (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:231: warning: Member IndexVector (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:232: warning: Member IndexMatrix (typedef) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo_private.h:257: warning: Member knn(const Matrix &query, IndexMatrix &indices, Matrix &dists2, const Vector &maxRadii, const Index k=1, const T epsilon=0, const unsigned optionFlags=0) const  (function) of class Nabo::OpenCLSearch is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo.cpp:53: warning: Member operator<<(const T &t) (function) of class Nabo::runtime_error is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo.cpp:64: warning: Member runtime_error(const runtime_error &re) (function) of class Nabo::runtime_error is not documented.
+/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/nabo.cpp:51: warning: Member ss (variable) of class Nabo::runtime_error is not documented.
+[35m[1mScanning dependencies of target nabo[0m
+[  5%] Built target doxygen
+[ 11%] [32mBuilding CXX object CMakeFiles/nabo.dir/nabo/nabo.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/nabo.dir/nabo/brute_force_cpu.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/nabo.dir/nabo/kdtree_cpu.cpp.o[0m
+[01m[K/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/kdtree_cpu.cpp:293:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [-Wunknown-pragmas]
+ #pragma omp parallel 
+[01;32m[K ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/kdtree_cpu.cpp:299:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp for [-Wunknown-pragmas]
+ #pragma omp for reduction(+:leafTouchedCount) schedule(guided,32)
+[01;32m[K ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/kdtree_cpu.cpp:323:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp parallel [-Wunknown-pragmas]
+ #pragma omp parallel 
+[01;32m[K ^[m[K
+[01m[K/home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/nabo/kdtree_cpu.cpp:329:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma omp for [-Wunknown-pragmas]
+ #pragma omp for reduction(+:leafTouchedCount) schedule(guided,32)
+[01;32m[K ^[m[K
+[ 27%] [32mBuilding CXX object CMakeFiles/nabo.dir/nabo/kdtree_opencl.cpp.o[0m
+[ 33%] [32m[1mLinking CXX static library libnabo.a[0m
+[ 33%] Built target nabo
+[35m[1mScanning dependencies of target trivial[0m
+[35m[1mScanning dependencies of target usage[0m
+[ 38%] [32mBuilding CXX object examples/CMakeFiles/trivial.dir/trivial.cpp.o[0m
+[ 44%] [32mBuilding CXX object examples/CMakeFiles/usage.dir/usage.cpp.o[0m
+[35m[1mScanning dependencies of target knnbucketsize[0m
+[35m[1mScanning dependencies of target knnepsilon[0m
+[ 50%] [32mBuilding CXX object tests/CMakeFiles/knnbucketsize.dir/knnbucketsize.cpp.o[0m
+[ 55%] [32mBuilding CXX object tests/CMakeFiles/knnepsilon.dir/knnepsilon.cpp.o[0m
+[ 61%] [32m[1mLinking CXX executable trivial[0m
+[35m[1mScanning dependencies of target knnbench[0m
+[ 66%] [32m[1mLinking CXX executable usage[0m
+[ 72%] [32mBuilding CXX object tests/CMakeFiles/knnbench.dir/knnbench.cpp.o[0m
+[ 72%] Built target trivial
+[35m[1mScanning dependencies of target knnvalidate[0m
+[ 72%] Built target usage
+[ 77%] [32mBuilding CXX object tests/CMakeFiles/knnvalidate.dir/knnvalidate.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable knnepsilon[0m
+[ 88%] [32m[1mLinking CXX executable knnbucketsize[0m
+[ 88%] Built target knnepsilon
+[ 88%] Built target knnbucketsize
+[ 94%] [32m[1mLinking CXX executable knnbench[0m
+[ 94%] Built target knnbench
+[100%] [32m[1mLinking CXX executable knnvalidate[0m
+[100%] Built target knnvalidate

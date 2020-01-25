@@ -1,0 +1,287 @@
+[35m[1mScanning dependencies of target glog_src[0m
+[ 10%] [34m[1mCreating directories for 'glog_src'[0m
+[ 20%] [34m[1mPerforming download step (verify and extract) for 'glog_src'[0m
+-- verifying file...
+     file='/home/mataiyuan/ASD-SLAM/src/3rd_party/glog_catkin/v0.3.5.zip'
+-- verifying file... warning: did not verify file - no URL_HASH specified?
+-- extracting...
+     src='/home/mataiyuan/ASD-SLAM/src/3rd_party/glog_catkin/v0.3.5.zip'
+     dst='/home/mataiyuan/ASD-SLAM/build/glog_catkin/glog_src-prefix/src/glog_src'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 30%] [34m[1mPerforming patch step for 'glog_src'[0m
+patching file src/glog/logging.h.in
+patching file src/windows/glog/logging.h
+patching file src/glog/logging.h.in
+patching file src/windows/glog/logging.h
+[ 40%] [34m[1mNo update step for 'glog_src'[0m
+[ 50%] [34m[1mPerforming configure step for 'glog_src'[0m
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+/home/mataiyuan/ASD-SLAM/build/glog_catkin/glog_src-prefix/src/glog_src/missing: Unknown `--is-lightweight' option
+Try `/home/mataiyuan/ASD-SLAM/build/glog_catkin/glog_src-prefix/src/glog_src/missing --help' for more information
+configure: WARNING: 'missing' script is too old or missing
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for ANSI C header files... no
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for ANSI C header files... (cached) no
+checking for stdint.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking syscall.h usability... yes
+checking syscall.h presence... yes
+checking for syscall.h... yes
+checking sys/syscall.h usability... yes
+checking sys/syscall.h presence... yes
+checking for sys/syscall.h... yes
+checking execinfo.h usability... yes
+checking execinfo.h presence... yes
+checking for execinfo.h... yes
+checking libunwind.h usability... no
+checking libunwind.h presence... no
+checking for libunwind.h... no
+checking ucontext.h usability... yes
+checking ucontext.h presence... yes
+checking for ucontext.h... yes
+checking sys/utsname.h usability... yes
+checking sys/utsname.h presence... yes
+checking for sys/utsname.h... yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking syslog.h usability... yes
+checking syslog.h presence... yes
+checking for syslog.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking glob.h usability... yes
+checking glob.h presence... yes
+checking for glob.h... yes
+checking unwind.h usability... yes
+checking unwind.h presence... yes
+checking for unwind.h... yes
+checking windows.h usability... no
+checking windows.h presence... no
+checking for windows.h... no
+checking size of void *... 8
+checking for uint16_t... yes
+checking for u_int16_t... yes
+checking for __uint16... no
+checking for sigaltstack... yes
+checking for sigaction... yes
+checking for dladdr... no
+checking for fcntl... yes
+checking for pread... yes
+checking for pwrite... yes
+checking for __attribute__... yes
+checking for __builtin_expect... yes
+checking for __sync_val_compare_and_swap... yes
+checking for the pthreads library -lpthreads... no
+checking whether pthreads work without any flags... no
+checking whether pthreads work with -Kthread... no
+checking whether pthreads work with -kthread... no
+checking for the pthreads library -llthread... no
+checking whether pthreads work with -pthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... no
+checking whether to check for GCC pthread/shared inconsistencies... yes
+checking whether -pthread is sufficient with -shared... yes
+checking for pthread_self in -lpthread... yes
+checking for main in -lgflags... yes
+checking for gtest-config... no
+checking for main in -lgtest... no
+checking support for pthread_rwlock_* functions... yes
+checking whether the compiler implements namespaces... yes
+checking what namespace STL code is in... std
+checking whether compiler supports using ::operator<<... 1
+checking for ucontext.h... (cached) yes
+checking sys/ucontext.h usability... yes
+checking sys/ucontext.h presence... yes
+checking for sys/ucontext.h... yes
+checking how to access the program counter from a struct ucontext... uc_mcontext.gregs[REG_RIP]
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/glog/logging.h
+config.status: creating src/glog/raw_logging.h
+config.status: creating src/glog/vlog_is_on.h
+config.status: creating src/glog/stl_logging.h
+config.status: creating libglog.pc
+config.status: creating src/config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+[ 60%] [34m[1mPerforming build step for 'glog_src'[0m
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I./src -I./src -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -DNDEBUG -g -O2 -MT src/libglog_la-logging.lo -MD -MP -MF src/.deps/libglog_la-logging.Tpo -c src/logging.cc  -fPIC -DPIC -o src/.libs/libglog_la-logging.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I./src -I./src -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -DNDEBUG -g -O2 -MT src/libglog_la-raw_logging.lo -MD -MP -MF src/.deps/libglog_la-raw_logging.Tpo -c src/raw_logging.cc  -fPIC -DPIC -o src/.libs/libglog_la-raw_logging.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I./src -I./src -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -DNDEBUG -g -O2 -MT src/libglog_la-demangle.lo -MD -MP -MF src/.deps/libglog_la-demangle.Tpo -c src/demangle.cc  -fPIC -DPIC -o src/.libs/libglog_la-demangle.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I./src -I./src -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -DNDEBUG -g -O2 -MT src/libglog_la-signalhandler.lo -MD -MP -MF src/.deps/libglog_la-signalhandler.Tpo -c src/signalhandler.cc  -fPIC -DPIC -o src/.libs/libglog_la-signalhandler.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I./src -I./src -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -DNDEBUG -g -O2 -MT src/libglog_la-vlog_is_on.lo -MD -MP -MF src/.deps/libglog_la-vlog_is_on.Tpo -c src/vlog_is_on.cc  -fPIC -DPIC -o src/.libs/libglog_la-vlog_is_on.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I./src -I./src -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -DNDEBUG -g -O2 -MT src/libglog_la-utilities.lo -MD -MP -MF src/.deps/libglog_la-utilities.Tpo -c src/utilities.cc  -fPIC -DPIC -o src/.libs/libglog_la-utilities.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I./src -I./src -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -DNDEBUG -g -O2 -MT src/libglog_la-symbolize.lo -MD -MP -MF src/.deps/libglog_la-symbolize.Tpo -c src/symbolize.cc  -fPIC -DPIC -o src/.libs/libglog_la-symbolize.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I./src -I./src -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -DNDEBUG -g -O2 -MT src/libglog_la-raw_logging.lo -MD -MP -MF src/.deps/libglog_la-raw_logging.Tpo -c src/raw_logging.cc  -fPIC -DPIC -o src/libglog_la-raw_logging.o >/dev/null 2>&1
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I./src -I./src -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -DNDEBUG -g -O2 -MT src/libglog_la-symbolize.lo -MD -MP -MF src/.deps/libglog_la-symbolize.Tpo -c src/symbolize.cc  -fPIC -DPIC -o src/libglog_la-symbolize.o >/dev/null 2>&1
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I./src -I./src -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -DNDEBUG -g -O2 -MT src/libglog_la-demangle.lo -MD -MP -MF src/.deps/libglog_la-demangle.Tpo -c src/demangle.cc  -fPIC -DPIC -o src/libglog_la-demangle.o >/dev/null 2>&1
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I./src -I./src -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -DNDEBUG -g -O2 -MT src/libglog_la-signalhandler.lo -MD -MP -MF src/.deps/libglog_la-signalhandler.Tpo -c src/signalhandler.cc  -fPIC -DPIC -o src/libglog_la-signalhandler.o >/dev/null 2>&1
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I./src -I./src -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -DNDEBUG -g -O2 -MT src/libglog_la-utilities.lo -MD -MP -MF src/.deps/libglog_la-utilities.Tpo -c src/utilities.cc  -fPIC -DPIC -o src/libglog_la-utilities.o >/dev/null 2>&1
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I./src -I./src -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -DNDEBUG -g -O2 -MT src/libglog_la-vlog_is_on.lo -MD -MP -MF src/.deps/libglog_la-vlog_is_on.Tpo -c src/vlog_is_on.cc  -fPIC -DPIC -o src/libglog_la-vlog_is_on.o >/dev/null 2>&1
+In file included from [01m[K/usr/include/c++/5/ext/hash_set:60:0[m[K,
+                 from [01m[Ksrc/glog/stl_logging.h:73[m[K,
+                 from [01m[Ksrc/stl_logging_unittest.cc:62[m[K:
+[01m[K/usr/include/c++/5/backward/backward_warning.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+ #warning \
+[01;32m[K  ^[m[K
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I./src -I./src -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -DNDEBUG -g -O2 -MT src/libglog_la-logging.lo -MD -MP -MF src/.deps/libglog_la-logging.Tpo -c src/logging.cc  -fPIC -DPIC -o src/libglog_la-logging.o >/dev/null 2>&1
+libtool: link: g++  -fPIC -DPIC -shared -nostdlib /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o  src/.libs/libglog_la-logging.o src/.libs/libglog_la-raw_logging.o src/.libs/libglog_la-vlog_is_on.o src/.libs/libglog_la-utilities.o src/.libs/libglog_la-demangle.o src/.libs/libglog_la-symbolize.o src/.libs/libglog_la-signalhandler.o   -L/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/lib -lgflags -lpthread -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -lstdc++ -lm -lc -lgcc_s /usr/lib/gcc/x86_64-linux-gnu/5/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o  -O2   -Wl,-soname -Wl,libglog.so.0 -o .libs/libglog.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libglog.so.0" && ln -s "libglog.so.0.0.0" "libglog.so.0")
+libtool: link: (cd ".libs" && rm -f "libglog.so" && ln -s "libglog.so.0.0.0" "libglog.so")
+libtool: link: ar cru .libs/libglog.a  src/libglog_la-logging.o src/libglog_la-raw_logging.o src/libglog_la-vlog_is_on.o src/libglog_la-utilities.o src/libglog_la-demangle.o src/libglog_la-symbolize.o src/libglog_la-signalhandler.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libglog.a
+libtool: link: ( cd ".libs" && rm -f "libglog.la" && ln -s "../libglog.la" "libglog.la" )
+libtool: link: g++ -pthread -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -g -O2 -pthread -o .libs/logging_unittest src/logging_unittest-logging_unittest.o  ./.libs/libglog.so -L/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/lib -lgflags -lpthread -pthread -Wl,-rpath -Wl,/home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib
+libtool: link: g++ -pthread -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -g -O2 -pthread -o .libs/symbolize_unittest src/symbolize_unittest-symbolize_unittest.o  ./.libs/libglog.so -L/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/lib -lgflags -lpthread -pthread -Wl,-rpath -Wl,/home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib
+libtool: link: g++ -pthread -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -g -O2 -pthread -o .libs/logging_striptest0 src/logging_striptest0-logging_striptest_main.o  ./.libs/libglog.so -L/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/lib -lgflags -lpthread -pthread -Wl,-rpath -Wl,/home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib
+libtool: link: g++ -pthread -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -g -O2 -pthread -o .libs/logging_striptest2 src/logging_striptest2-logging_striptest2.o  ./.libs/libglog.so -L/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/lib -lgflags -lpthread -pthread -Wl,-rpath -Wl,/home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib
+libtool: link: g++ -pthread -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -g -O2 -pthread -o .libs/utilities_unittest src/utilities_unittest-utilities_unittest.o  ./.libs/libglog.so -L/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/lib -lgflags -lpthread -pthread -Wl,-rpath -Wl,/home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib
+libtool: link: g++ -pthread -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -g -O2 -pthread -o .libs/stl_logging_unittest src/stl_logging_unittest-stl_logging_unittest.o  ./.libs/libglog.so -L/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/lib -lgflags -lpthread -pthread -Wl,-rpath -Wl,/home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib
+libtool: link: g++ -pthread -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -g -O2 -pthread -o .libs/stacktrace_unittest src/stacktrace_unittest-stacktrace_unittest.o  ./.libs/libglog.so -L/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/lib -lgflags -lpthread -pthread -Wl,-rpath -Wl,/home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib
+libtool: link: g++ -pthread -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -g -O2 -pthread -o .libs/demangle_unittest src/demangle_unittest-demangle_unittest.o  ./.libs/libglog.so -L/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/lib -lgflags -lpthread -pthread -Wl,-rpath -Wl,/home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib
+libtool: link: g++ -pthread -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -g -O2 -pthread -o .libs/signalhandler_unittest src/signalhandler_unittest-signalhandler_unittest.o  ./.libs/libglog.so -L/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/lib -lgflags -lpthread -pthread -Wl,-rpath -Wl,/home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib
+libtool: link: g++ -pthread -I/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/include -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -DNO_FRAME_POINTER -g -O2 -pthread -o .libs/logging_striptest10 src/logging_striptest10-logging_striptest10.o  ./.libs/libglog.so -L/home/mataiyuan/ASD-SLAM/devel/.private/gflags_catkin/lib -lgflags -lpthread -pthread -Wl,-rpath -Wl,/home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib
+[ 70%] [34m[1mPerforming install step for 'glog_src'[0m
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+ /bin/mkdir -p '/home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/share/doc/glog-0.3.5'
+ /bin/mkdir -p '/home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/include/glog'
+ /bin/mkdir -p '/home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib/pkgconfig'
+ /bin/mkdir -p '/home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/include/glog'
+ /bin/mkdir -p '/home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib'
+ /usr/bin/install -c -m 644 AUTHORS COPYING ChangeLog INSTALL NEWS README README.windows doc/designstyle.css doc/glog.html '/home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/share/doc/glog-0.3.5'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libglog.la '/home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib'
+ /usr/bin/install -c -m 644 src/glog/logging.h src/glog/raw_logging.h src/glog/vlog_is_on.h src/glog/stl_logging.h '/home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/include/glog'
+ /usr/bin/install -c -m 644 libglog.pc '/home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib/pkgconfig'
+ /usr/bin/install -c -m 644 src/glog/log_severity.h '/home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/include/glog'
+libtool: install: /usr/bin/install -c .libs/libglog.so.0.0.0 /home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib/libglog.so.0.0.0
+libtool: install: (cd /home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib && { ln -s -f libglog.so.0.0.0 libglog.so.0 || { rm -f libglog.so.0 && ln -s libglog.so.0.0.0 libglog.so.0; }; })
+libtool: install: (cd /home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib && { ln -s -f libglog.so.0.0.0 libglog.so || { rm -f libglog.so && ln -s libglog.so.0.0.0 libglog.so; }; })
+libtool: install: /usr/bin/install -c .libs/libglog.lai /home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib/libglog.la
+libtool: install: /usr/bin/install -c .libs/libglog.a /home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib/libglog.a
+libtool: install: chmod 644 /home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib/libglog.a
+libtool: install: ranlib /home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib/libglog.a
+libtool: finish: PATH="/home/mataiyuan/ASD-SLAM/devel/bin:/opt/ros/kinetic/bin:/usr/local/cuda/bin:/usr/local/cuda-9.0:~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/sbin" ldconfig -n /home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+[ 80%] [34m[1mCompleted 'glog_src'[0m
+[ 80%] Built target glog_src
+[35m[1mScanning dependencies of target glog_catkin[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/glog_catkin.dir/src/dependency_tracker.cc.o[0m
+[100%] [32m[1mLinking CXX shared library /home/mataiyuan/ASD-SLAM/devel/.private/glog_catkin/lib/libglog_catkin.so[0m
+[100%] Built target glog_catkin

@@ -1,0 +1,4 @@
+Symlinking /home/mataiyuan/ASD-SLAM/devel/share/visualization/cmake/visualizationConfig.cmake
+Symlinking /home/mataiyuan/ASD-SLAM/devel/share/visualization/cmake/visualizationConfig-version.cmake
+Symlinking /home/mataiyuan/ASD-SLAM/devel/lib/libvisualization.so
+Symlinking /home/mataiyuan/ASD-SLAM/devel/lib/pkgconfig/visualization.pc

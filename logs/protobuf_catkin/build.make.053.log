@@ -1,0 +1,29 @@
+[ 10%] [34m[1mPerforming download step (download, verify and extract) for 'protobuf_src'[0m
+-- downloading...
+     src='https://github.com/protocolbuffers/protobuf/archive/v3.6.1.tar.gz'
+     dst='/home/mataiyuan/ASD-SLAM/build/protobuf_catkin/protobuf_src-prefix/src/v3.6.1.tar.gz'
+     timeout='none'
+CMake Error at protobuf_src-stamp/download-protobuf_src.cmake:21 (message):
+  error: downloading
+  'https://github.com/protocolbuffers/protobuf/archive/v3.6.1.tar.gz' failed
+
+    status_code: 7
+    status_string: "Couldn't connect to server"
+    log:   Trying 13.250.177.223...
+
+  connect to 13.250.177.223 port 443 failed: Connection timed out
+
+  Failed to connect to github.com port 443: Connection timed out
+
+  Closing connection 0
+
+  
+
+
+
+CMakeFiles/protobuf_src.dir/build.make:89: recipe for target 'protobuf_src-prefix/src/protobuf_src-stamp/protobuf_src-download' failed
+make[2]: *** [protobuf_src-prefix/src/protobuf_src-stamp/protobuf_src-download] Error 1
+CMakeFiles/Makefile2:259: recipe for target 'CMakeFiles/protobuf_src.dir/all' failed
+make[1]: *** [CMakeFiles/protobuf_src.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

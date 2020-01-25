@@ -1,0 +1,35 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The C compiler identification is GNU 5.4.0
+[36m--[0m The CXX compiler identification is GNU 5.4.0
+[36m--[0m Check for working C compiler: /usr/bin/cc
+[36m--[0m Check for working C compiler: /usr/bin/cc -- works
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Check for working CXX compiler: /usr/bin/c++
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m No build type specified; defaulting to CMAKE_BUILD_TYPE=Release.
+[36m--[0m Found Doxygen: /usr/bin/doxygen (found version "1.8.11")
+[36m--[0m Found DOXYFILE_IN: /home/mataiyuan/ASD-SLAM/src/3rd_party/libnabo/Doxyfile.in
+[36m--[0m Found LATEX: /usr/bin/latex
+[36m--[0m Boost version: 1.58.0
+OpenCL disabled, not looking for it
+ANN not found, disabling it in benchmarks
+FLANN found, enabling it in benchmarks
+[36m--[0m Looking for _POSIX_TIMERS
+[36m--[0m Looking for _POSIX_TIMERS - found
+[36m--[0m Found PythonInterp: /usr/bin/python (found version "2.7.12")
+Python version from interpreter is 2.7.12
+[36m--[0m Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython2.7.so (found version "2.7.12")
+Python libs and executable found, looking for numpy and boost::python
+[36m--[0m Could NOT find Boost
+Boost_PYTHON3_FOUNDfound:}}
+[36m--[0m Found numpy: /usr/local/lib/python2.7/dist-packages/numpy
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/mataiyuan/ASD-SLAM/build/libnabo

@@ -1,0 +1,80 @@
+In file included from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23:0[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBmatcher.h:29[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBmatcher.cc:21[m[K:
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26:23:[m[K [01;31m[Kfatal error: [m[KATen/ATen.h: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/vslam.dir/src/ORBmatcher.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23:0[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/LoopClosing.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/LoopClosing.cc:21[m[K:
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26:23:[m[K [01;31m[Kfatal error: [m[KATen/ATen.h: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/vslam.dir/src/LoopClosing.cc.o] Error 1
+In file included from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23:0[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/PnPsolver.h:55[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/PnPsolver.cc:53[m[K:
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26:23:[m[K [01;31m[Kfatal error: [m[KATen/ATen.h: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/vslam.dir/src/PnPsolver.cc.o] Error 1
+In file included from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23:0[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/LocalMapping.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/LocalMapping.cc:21[m[K:
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26:23:[m[K [01;31m[Kfatal error: [m[KATen/ATen.h: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/vslam.dir/src/LocalMapping.cc.o] Error 1
+In file included from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23:0[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/Map.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/Tracking.h:27[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/Tracking.cc:22[m[K:
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26:23:[m[K [01;31m[Kfatal error: [m[KATen/ATen.h: No such file or directory
+compilation terminated.
+In file included from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23:0[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/KeyFrame.cc:21[m[K:
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26:23:[m[K [01;31m[Kfatal error: [m[KATen/ATen.h: No such file or directory
+In file included from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/ORBextractor.cc:63:0[m[K:
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26:23:[m[K [01;31m[Kfatal error: [m[KATen/ATen.h: No such file or directory
+compilation terminated.
+compilation terminated.
+In file included from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23:0[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/Map.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/Optimizer.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/Optimizer.cc:21[m[K:
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26:23:[m[K [01;31m[Kfatal error: [m[KATen/ATen.h: No such file or directory
+compilation terminated.
+In file included from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23:0[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/Map.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/Map.cc:21[m[K:
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26:23:[m[K [01;31m[Kfatal error: [m[KATen/ATen.h: No such file or directory
+compilation terminated.
+In file included from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23:0[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/MapPoint.cc:21[m[K:
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26:23:[m[K [01;31m[Kfatal error: [m[KATen/ATen.h: No such file or directory
+compilation terminated.
+In file included from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23:0[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/Frame.h:26[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/Frame.cc:21[m[K:
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26:23:[m[K [01;31m[Kfatal error: [m[KATen/ATen.h: No such file or directory
+make[2]: *** [CMakeFiles/vslam.dir/src/ORBextractor.cc.o] Error 1
+compilation terminated.
+make[2]: *** [CMakeFiles/vslam.dir/src/KeyFrame.cc.o] Error 1
+make[2]: *** [CMakeFiles/vslam.dir/src/Tracking.cc.o] Error 1
+make[2]: *** [CMakeFiles/vslam.dir/src/Optimizer.cc.o] Error 1
+make[2]: *** [CMakeFiles/vslam.dir/src/MapPoint.cc.o] Error 1
+make[2]: *** [CMakeFiles/vslam.dir/src/Map.cc.o] Error 1
+make[2]: *** [CMakeFiles/vslam.dir/src/Frame.cc.o] Error 1
+In file included from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrame.h:23:0[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/KeyFrameDatabase.h:28[m[K,
+                 from [01m[K/home/mataiyuan/ASD-SLAM/src/vslam/src/KeyFrameDatabase.cc:21[m[K:
+[01m[K/home/mataiyuan/ASD-SLAM/src/vslam/include/ORBextractor.h:26:23:[m[K [01;31m[Kfatal error: [m[KATen/ATen.h: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/vslam.dir/src/KeyFrameDatabase.cc.o] Error 1
+make[1]: *** [CMakeFiles/vslam.dir/all] Error 2
+make: *** [all] Error 2

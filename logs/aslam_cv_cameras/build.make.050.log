@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target aslam_cv_cameras[0m
+[  8%] [32mBuilding CXX object CMakeFiles/aslam_cv_cameras.dir/src/camera.cc.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/aslam_cv_cameras.dir/src/camera-factory.cc.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/aslam_cv_cameras.dir/src/camera-pinhole.cc.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/aslam_cv_cameras.dir/src/distortion-radtan.cc.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/aslam_cv_cameras.dir/src/camera-unified-projection.cc.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/aslam_cv_cameras.dir/src/distortion.cc.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/aslam_cv_cameras.dir/src/camera-yaml-serialization.cc.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/aslam_cv_cameras.dir/src/distortion-equidistant.cc.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/aslam_cv_cameras.dir/src/distortion-fisheye.cc.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/aslam_cv_cameras.dir/src/ncamera.cc.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/aslam_cv_cameras.dir/src/ncamera-yaml-serialization.cc.o[0m
+[100%] [32m[1mLinking CXX shared library /home/mataiyuan/ASD-SLAM/devel/.private/aslam_cv_cameras/lib/libaslam_cv_cameras.so[0m
+[100%] Built target aslam_cv_cameras

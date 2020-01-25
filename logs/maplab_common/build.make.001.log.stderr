@@ -1,0 +1,13 @@
+In file included from [01m[K/home/mataiyuan/ASD-SLAM/src/maplab-common/src/unique-id.cc:1:0[m[K:
+[01m[K/home/mataiyuan/ASD-SLAM/src/maplab-common/include/maplab-common/internal/unique-id.h:7:33:[m[K [01;31m[Kfatal error: [m[Kmaplab-common/id.pb.h: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/maplab_common.dir/src/unique-id.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/mataiyuan/ASD-SLAM/build/maplab_common/compiled_proto/maplab-common/id.pb.cc:4:33:[m[K [01;31m[Kfatal error: [m[Kmaplab-common/id.pb.h: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/maplab_common.dir/compiled_proto/maplab-common/id.pb.cc.o] Error 1
+[01m[K/home/mataiyuan/ASD-SLAM/build/maplab_common/compiled_proto/maplab-common/eigen.pb.cc:4:36:[m[K [01;31m[Kfatal error: [m[Kmaplab-common/eigen.pb.h: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/maplab_common.dir/compiled_proto/maplab-common/eigen.pb.cc.o] Error 1
+make[1]: *** [CMakeFiles/maplab_common.dir/all] Error 2
+make: *** [all] Error 2

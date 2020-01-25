@@ -1,0 +1,18 @@
+Symlinking /home/mataiyuan/ASD-SLAM/devel/share/vslam/cmake/vslamConfig.cmake
+Symlinking /home/mataiyuan/ASD-SLAM/devel/share/vslam/cmake/vslamConfig-version.cmake
+Symlinking /home/mataiyuan/ASD-SLAM/devel/lib/libvslam.so
+Symlinking /home/mataiyuan/ASD-SLAM/devel/lib/pkgconfig/vslam.pc
+Symlinking /home/mataiyuan/ASD-SLAM/devel/lib/vslam/kitti
+Symlinking /home/mataiyuan/ASD-SLAM/devel/lib/vslam/euroc
+Cleaning: (/home/mataiyuan/ASD-SLAM/devel/.private/vslam/lib/vslam/create_vol_DL, /home/mataiyuan/ASD-SLAM/devel/lib/vslam/create_vol_DL)
+Cleaning: (/home/mataiyuan/ASD-SLAM/devel/.private/vslam/lib/vslam/orb_loc, /home/mataiyuan/ASD-SLAM/devel/lib/vslam/orb_loc)
+Cleaning: (/home/mataiyuan/ASD-SLAM/devel/.private/vslam/lib/vslam/testclosure, /home/mataiyuan/ASD-SLAM/devel/lib/vslam/testclosure)
+Cleaning: (/home/mataiyuan/ASD-SLAM/devel/.private/vslam/lib/vslam/mono_kitti, /home/mataiyuan/ASD-SLAM/devel/lib/vslam/mono_kitti)
+Unlinking: /home/mataiyuan/ASD-SLAM/devel/lib/vslam/create_vol_DL
+Already unlinked: {}
+Unlinking: /home/mataiyuan/ASD-SLAM/devel/lib/vslam/orb_loc
+Already unlinked: {}
+Unlinking: /home/mataiyuan/ASD-SLAM/devel/lib/vslam/testclosure
+Already unlinked: {}
+Unlinking: /home/mataiyuan/ASD-SLAM/devel/lib/vslam/mono_kitti
+Already unlinked: {}

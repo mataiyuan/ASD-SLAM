@@ -1,0 +1,17 @@
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+ar: creating libcerbla.a
+ar: creating libsuitesparseconfig.a
+ar: creating libamd.a
+ar: creating libbtf.a
+ar: creating libcamd.a
+ar: creating libccolamd.a
+ar: creating libcolamd.a
+ar: creating libcholmod.a
+ar: creating libklu.a
+ar: creating libldl.a
+ar: creating libumfpack.a
+ar: creating libcsparse.a
+ar: creating libcxsparse.a
+ar: creating libspqr.a
+ar: creating librbio.a
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
