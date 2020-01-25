@@ -22,6 +22,10 @@ cd ASD-SLAM && catkin build vslam
 ```
 When you compile the code for the first time, you need to modify CMakeLists.txt in folder vslam, you should set your own APPEND CMAKE_PREFIX_PATH `list(APPEND CMAKE_PREFIX_PATH "/home/mataiyuan/Ku/pytorch/torch/share/cmake/Torch")`.
 
+## NetWork
+<p align='center'>
+    <img src="imgs/Network.png" alt="drawing" width="600"/>
+</p>
 
 ## Run the package
 
@@ -43,10 +47,10 @@ bash run_vslam_euroc.sh
 we test ASD-SLAM  LDSO ORB-SLAM2 on KITTI datasets , the results are in folder `/experiment_result`. you can evaluate the results with [rpg_trajectory_evaluation](https://github.com/uzh-rpg/rpg_trajectory_evaluation).
 
 <p align='center'>
-    <img src="/LeGO-LOAM/launch/dataset-demo.gif" alt="drawing" width="600"/>
+    <img src="imgs/ate.jpg" alt="drawing" width="600"/>
 </p>
 <p align='center'>
-    <img src="/LeGO-LOAM/launch/google-earth.png" alt="drawing" width="600"/>  
+    <img src="imgs/rate.jpg" alt="drawing" width="600"/>  
 </p>
 
 ## Show the map
